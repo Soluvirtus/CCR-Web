@@ -1,0 +1,34 @@
+/* Archivo Css del proyecto CCR */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Inconsolata", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.bgimg-1:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://image.jimcdn.com/app/cms/image/transf/dimension=1000x10000:format=jpg/path/scb90d50717f9a10a/image/if4186050e5cec8ab/version/1723527398/image.jpg");
+  min-height: 100%;
+}
+
+.w3-bar {
+  background-color: black;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
