@@ -1,34 +1,63 @@
-/* Archivo Css del proyecto CCR */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Inconsolata", sans-serif;
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Inconsolata", sans-serif}
+  }
 
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
+  body {
+    font-size: large;
+  }
 
-.bgimg-1:before {
-	content:'';
-	position: absolute;
-        top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/mnt/data/image.png");
+    height: 100vh;
+    position: relative;
+    color: white;
+  }
 
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://image.jimcdn.com/app/cms/image/transf/dimension=1000x10000:format=jpg/path/scb90d50717f9a10a/image/if4186050e5cec8ab/version/1723527398/image.jpg");
-  min-height: 100%;
-}
+  .bgimg-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 
-.w3-bar {
-  background-color: black;
-}
+  .bgimg-1 .container {
+    position: relative;
+    z-index: 2;
+  }
 
-.w3-bar .w3-button {
-  padding: 16px;
-}
+  .navbar {
+    background-color: black;
+    padding: 20px; /* Aquí ajustas el padding de la navbar */
+  }
+
+  .navbar .nav-link {
+    color: white !important;
+    font-size: large;
+    padding: 6px;
+    margin-right: 20px;
+  }
+  
+  section {
+    height: 100vh; /* Cada sección ocupa el 100% del viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-mid {
+    height: 50vh; /* Cada sección ocupa el 100% del viewport */
+  }
+
+  .smooth-scroll {
+    scroll-behavior: smooth; /* Activar la transición suave para el scroll */
+  }
+  
+  #about{
+    padding: 1rem;
+  }
