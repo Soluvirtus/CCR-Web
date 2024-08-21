@@ -10,7 +10,8 @@
   <!-- Fuentes y Estilos Adicionales -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Inconsolata">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
@@ -36,26 +37,32 @@
       </div>
 
       <!-- Botón Toggler para Móviles -->
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
   </nav>
 
   <!-- Offcanvas para Móviles -->
-  <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+  <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
       <ul class="navbar-nav">
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#home"><i class="bi bi-house"></i> Inicio</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#about"><i class="bi bi-people-fill"></i> Nosotros</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#work"><i class="bi bi-calendar3"></i> Horarios</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#pricing"><i class="bi bi-collection"></i> Recursos</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#contact"><i class="bi bi-envelope-fill"></i> Contacto</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#home"><i class="bi bi-house"></i>
+            Inicio</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#about"><i
+              class="bi bi-people-fill"></i> Nosotros</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#work"><i
+              class="bi bi-calendar3"></i> Horarios</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#pricing"><i
+              class="bi bi-collection"></i> Recursos</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#contact"><i
+              class="bi bi-envelope-fill"></i> Contacto</a></li>
       </ul>
     </div>
   </div>
@@ -290,15 +297,17 @@
   Sección de Contacto -->
   <section id="contact" class="container text-center">
     <div class="container">
-      <h3>Contacto</h3>
+      <h2><b>Contacto</b></h2>
       <p class="text-muted"><b>¿Tienes alguna pregunta o necesitas más información? No dudes en ponerte en contacto con
-        nosotros.</b></p>
+          nosotros.</b></p>
       <div class="row mt-5">
         <div class="col-md-4">
           <p><i class="fa fa-map-marker fa-fw mr-2"></i> Calle Tabasco 197, Colonia Roma, Ciudad de México</p>
           <p><i class="fa fa-phone fa-fw mr-2"></i> Teléfono: +52 55 1234 5678</p>
           <p><i class="fa fa-envelope fa-fw mr-2"></i> contacto@ccroma.mx</p>
+          <br>
         </div>
+
         <div class="col-md-8">
           <form action="/action_page.php" target="_blank">
             <div class="form-group mb-3">
@@ -313,13 +322,15 @@
             <div class="form-group mb-3">
               <textarea class="form-control" placeholder="Mensaje" required name="Message"></textarea>
             </div>
-            <button type="submit" class="btn btn-dark"><i class="fa fa-paper-plane"></i> Enviar Mensaje</button>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-dark btn-lg"><i class="fa fa-paper-plane"></i> Enviar</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
   </section>
-                             
+
   <!-- Footer -->
   <footer class="text-center text-white bg-dark py-4">
     <a href="#home" class="btn btn-light"><i class="fa fa-arrow-up mr-2"></i>To the top</a>
