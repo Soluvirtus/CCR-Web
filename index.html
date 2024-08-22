@@ -90,13 +90,13 @@
   <section id="about" class="container text-center section-mid">
     <div class="container">
       <h2><b>⛪ Sobre Nosotros</b></h2>
-      <div class="row text-center mt-5">
+      <div class="row flex-sm-column text-center mt-4 d-flex">
         <!-- Logo a la Izquierda -->
-        <div class="col-sm-6 col-md-6 mb-5 d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-lg-12 col-md-12 mb-4 mt-4 d-flex justify-content-center align-items-center">
           <img src="/img/LOGO SIMPLE CCR.png" alt="Logo" height="50%">
         </div>
         <!-- Descripción -->
-        <div class="col-sm-6 col-md-6 mb-5">
+        <div class="col-sm-12 col-lg-12 col-md-12 mb-5">
           <p class="semblanza">Bienvenidos a <b><i>Comunidad Cristiana Roma</i></b>, una iglesia cristiana comprometida
             con la enseñanza fiel de la Palabra de Dios y con la transformación de vidas a través del mensaje del
             evangelio. Nuestra misión es glorificar a Dios al edificar una comunidad centrada en Cristo, donde cada
@@ -128,14 +128,16 @@
           <i class="bi bi-people"></i>
           <h4><b>Comunidad</b></h4>
           <p>
-            Vivimos la esperanza del evangelio en comunidad. Como miembros del cuerpo de Cristo, Dios nos llama a seguir a Jesús juntos. Por eso, damos prioridad a la comunidad cristiana en el uso de nuestro tiempo, energía y recursos. Como una familia diversa e interdependiente nos comprometemos el uno al otro, hablando la verdad en amor, usando nuestros dones y talentos en servicio mutuo, y desarrollando vidas santas que reflejan el carácter de Dios. La comunidad no existe para sí, sino para la gloria de Dios y el bien de su mundo.
-            </p>
+            Vivimos la esperanza del evangelio en comunidad. Como miembros del cuerpo de Cristo, Dios nos llama a seguir
+            a Jesús juntos.
+          </p>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <i class="bi bi-chat-heart"></i>
           <h4><b>Gracia</b></h4>
           <p>
-            Disfrutamos la gracia de Dios y la ofrecemos a otros. Todo lo que tenemos, desde la comida hasta la salvación, es un regalo de Dios y se convierte en motivo de gozo, agradecimiento y adoración. Como una comunidad de gracia, nos dedicamos a ser hospitalarios y generosos, prontos para creer lo mejor, perdonar, servir, sacrificar, animar y orar el uno por el otro. Reconocemos que el chisme, el orgullo, el legalismo, el mérito y la manipulación son incompatibles con este evangelio de gracia.</p>
+            Disfrutamos la gracia de Dios y la ofrecemos a otros. Todo lo que tenemos, desde la comida hasta la
+            salvación, es un regalo de Dios y se convierte en motivo de gozo, agradecimiento y adoración.</p>
         </div>
       </div>
       <button type="submit" class="btn btn-dark"><i class="bi bi-download"></i> Nuestra Confesión de Fe ✝</button>
@@ -296,77 +298,60 @@
   </section> 
 
   Sección de Contacto -->
-  <section id="contact" class="container text-center">
-    <div class="container">
-      <h2><b>Contacto</b></h2>
-      <p class="text-muted"><b>¿Tienes alguna pregunta o necesitas más información? No dudes en ponerte en contacto con
-          nosotros.</b></p>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .map-container {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
-        }
-        .map-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8513136097363!2d-99.16435052611507!3d19.418829241123106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a18ba7147%3A0xa31890bb0fd4e385!2sTabasco%20197%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1724358582876!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</body>
-</html>
-
-      <div class="row mt-5">
-        <div class="col-md-4">
+  <section id="contact" class="container text-center mb-5">
+    <h2><b>Contacto</b></h2>
+    <p class="text-muted mb-5">¿Tienes alguna pregunta o necesitas más información? No dudes en ponerte en contacto con nosotros.</p>
+  
+    <div class="d-flex flex-column flex-md-col flex-sm-col justify-content-center align-items-start">
+      <!-- Google Map -->
+      <div class="col-12 col-md-12 mb-4 mb-md-0">
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8513136097363!2d-99.16435052611507!3d19.418829241123106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a18ba7147%3A0xa31890bb0fd4e385!2sTabasco%20197%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1724358582876!5m2!1ses-419!2smx" 
+            allowfullscreen 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+  
+      <!-- Contact Form and Info -->
+      <div class="col-12 col-md-12 col-sm-12">
+        <div class="contact-info mb-5 mt-4">
           <p><i class="fa fa-map-marker fa-fw mr-2"></i> Calle Tabasco 197, Colonia Roma, Ciudad de México</p>
           <p><i class="fa fa-phone fa-fw mr-2"></i> Teléfono: +52 55 1234 5678</p>
           <p><i class="fa fa-envelope fa-fw mr-2"></i> contacto@ccroma.mx</p>
-          <br>
         </div>
-
-        <div class="col-md-8">
-          <form action="/action_page.php" target="_blank">
-            <div class="form-group mb-3">
-              <input type="text" class="form-control" placeholder="Juan Rodriguez" required name="Name">
-            </div>
-            <div class="form-group mb-3">
-              <input type="email" class="form-control" placeholder="juanrod@email.com" required name="Email">
-            </div>
-            <div class="form-group mb-3">
-              <input type="text" class="form-control" placeholder="Subject" required name="Subject">
-            </div>
-            <div class="form-group mb-3">
-              <textarea class="form-control" placeholder="Mensaje" required name="Message"></textarea>
-            </div>
-            <div class="d-grid gap-2">
-              <button type="submit" class="btn btn-dark btn-lg"><i class="fa fa-paper-plane"></i> Enviar</button>
-            </div>
-          </form>
-        </div>
+        <form action="/action_page.php" target="_blank">
+          <div class="form-group mb-3">
+            <input type="text" class="form-control" placeholder="Juan Rodriguez" required name="Name" id="name">
+          </div>
+          <div class="form-group mb-3">
+            <input type="email" class="form-control" placeholder="juanrod@email.com" required name="Email" id="email">
+          </div>
+          <div class="form-group mb-3">
+            <input type="text" class="form-control" placeholder="Asunto" required name="Subject" id="subject">
+          </div>
+          <div class="form-group mb-3">
+            <textarea class="form-control" placeholder="Mensaje" required name="Message" id="message"></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-dark btn-lg"><i class="fa fa-paper-plane"></i> Enviar</button>
+          </div>
+        </form>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="text-center text-white bg-dark py-4">
-    <a href="#home" class="btn btn-light"><i class="fa fa-arrow-up mr-2"></i>To the top</a>
+    <a href="#home" class="btn btn-light"><i class="fa fa-arrow-up mr-2"></i> Ir al inicio</a>
     <div class="my-3">
       <i class="fa fa-facebook-official mx-2"></i>
       <i class="fa fa-instagram mx-2"></i>
       <i class="fa fa-twitter mx-2"></i>
     </div>
-    <p class="mb-0">Powered by <a href="https://getbootstrap.com/" title="Bootstrap" target="_blank"
-        class="text-white">Bootstrap</a></p>
+    <p class="mb-0">© Comunidad Cristiana Roma</p>
   </footer>
 
   <!-- Bootstrap Scripts -->
