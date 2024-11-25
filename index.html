@@ -13,7 +13,7 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="/styles/styles.css">
-</head>
+</head>|
 
 <body class="smooth-scroll">
 
@@ -31,9 +31,9 @@
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-house"></i> Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="#nosotros"><i class="bi bi-people-fill"></i> Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="#horarios"><i class="bi bi-calendar3"></i> Horarios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sermones"><i class="bi bi-play-btn-fill"></i> Sermones</a>
+          <!-- <li class="nav-item"><a class="nav-link" href="#sermones"><i class="bi bi-play-btn-fill"></i> Sermones</a> -->
           </li>
-          <li class="nav-item"><a class="nav-link" href="#galeria"><i class="bi bi-camera"></i> Galería</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#galeria"><i class="bi bi-camera"></i> Galería</a></li> -->
           <li class="nav-item"><a class="nav-link" href="#contacto"><i class="bi bi-envelope-fill"></i> Contacto</a>
           </li>
         </ul>
@@ -62,10 +62,10 @@
               class="bi bi-people-fill"></i> Nosotros</a></li>
         <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#horarios"><i
               class="bi bi-calendar3"></i> Horarios</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#sermones"><i
-              class="bi bi-play-btn-fill"></i> Sermones</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#galeria"><i
-              class="bi bi-camera"></i> Galería</a></li>
+        <!-- <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#sermones"><i
+              class="bi bi-play-btn-fill"></i> Sermones</a></li> -->
+        <!-- <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#galeria"><i
+              class="bi bi-camera"></i> Galería</a></li> -->
         <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#contacto"><i
               class="bi bi-envelope-fill"></i> Contacto</a></li>
       </ul>
@@ -114,18 +114,19 @@
       <button type="submit" class="btn btn-light mb-5"><i class="bi bi-arrow-up-right-circle-fill"></i> Conoce Nuestra
         Historia</button>
     </div>
-    <div class="separator">
-      <hr>
-    </div>
+
+  </section>
+
+
+  <section id="imagen" class="text-center section-img">
     <!-- Sección de Imagen -->
-    <div class="container-fluid mt-5 mb-5">
-      <img id="imagen-tabasco" src="img/tabasco.jpg" class="img-fluid" alt="Responsive image">
-    </div>
-    <div class="separator">
-      <hr>
-    </div>
+    <img id="imagen-tabasco" src="img/tabasco.jpg" class="img-fluid">
+  </section>
+
+
+  <section id="valores" class="container text-center section-mid">
     <!-- Valores -->
-    <div class="container mt-5">
+    <div class="container">
       <p>🍇</p>
       <h2><b>Nuestros Valores</b></h2>
       <p class="text-muted">Nos regimos principalmente por 4 valores fundamentales:</p>
@@ -160,22 +161,15 @@
       </div>
       <button type="submit" class="btn btn-warning"><i class="bi bi-download"></i> Valores + Confesión de Fe</button>
     </div>
+
   </section>
 
-  <div class="separator">
-    <hr>
-  </div>
-
   <!-- Sección de Imagen -->
-  <div class="container d-flex justify-content-center">
-    <img id="ccrppl" src="img/ccrppl.jpg" class="img-fluid pb-5 pt-5" alt="Responsive image">
+  <section id="imagen" class="text-center section-img">
 
-  </div>
+    <img id="imagen-tabasco" src="img/ccrppl.jpg" class="img-fluido" alt="Responsive image">
 
-  <div class="separator">
-    <hr>
-  </div>
-
+  </section>
 
   <section id="horarios" class="text-center section-small pt-5 pb-5">
     <p>📅</p>
@@ -221,7 +215,7 @@
     <div id="soundcloud" class="container mt-5">
       <button type="submit" class="btn btn-light mb-1 p-3"><i class="bi bi-arrow-up-right-circle-fill"></i> SoundCloud<i
           class="fa fa-soundcloud mx-2"></i></button>
-      <div class="youtube-embed mt-5" >
+      <div class="youtube-embed mt-5">
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" style="border-radius:12px"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1898733246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         <div
@@ -230,7 +224,8 @@
             style="color: #cccccc; text-decoration: none;">Comunidad Cristiana Roma</a> · <a
             href="https://soundcloud.com/ccroma/testigos-del-cristo-juan-530-47"
             title="Testigos del Cristo (Juan 5:30-47)" target="_blank"
-            style="color: #cccccc; text-decoration: none;">Testigos del Cristo (Juan 5:30-47)</a></div>
+            style="color: #cccccc; text-decoration: none;">Testigos del Cristo (Juan 5:30-47)</a>
+        </div>
       </div>
     </div>
 
@@ -389,15 +384,15 @@
   </section> 
 
   Sección de Contacto -->
-  <section id="contacto" class="container text-center mb-5">
+  <section id="contacto" class="text-center mb-5">
     <p>📞</p>
     <h2 class="mb-5"><b>Contacto</b></h2>
     <p class="text-muted mb-5">¿Tienes alguna pregunta o necesitas más información? No dudes en ponerte en contacto con
       nosotros.</p>
 
-    <div class="d-flex flex-column flex-md-col flex-sm-col justify-content-center align-items-start">
-      <!-- Google Map --> 
-      <div class="col-12 col-md-12 mb-4 mb-md-0">
+    <div class="d-flex flex-column flex-md-col flex-sm-col justify-content-center align-items-center">
+      <!-- Google Map -->
+      <div class="col-8 col-md-8 col-sm-12 mb-4 mb-md-0">
         <div class="map-container">
           <iframe style="border-radius:12px"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8513136097363!2d-99.16435052611507!3d19.418829241123106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a18ba7147%3A0xa31890bb0fd4e385!2sTabasco%20197%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1724358582876!5m2!1ses-419!2smx"
@@ -407,29 +402,38 @@
       </div>
 
       <!-- Contact Form and Info -->
-      <div class="col-12 col-md-12 col-sm-12 mb-5">
+      <div class="col-12 col-md-8 col-sm-12 mb-5">
         <div class="contact-info mb-5 mt-4">
           <p><i class="fa fa-map-marker fa-fw mr-2"></i> Calle Tabasco 197, Colonia Roma, Ciudad de México</p>
           <p><i class="fa fa-phone fa-fw mr-2"></i> Teléfono: +52 55 1234 5678</p>
-          <p><i class="fa fa-envelope fa-fw mr-2"></i> contacto@ccroma.mx</p>
+          <p><i class="fa fa-envelope fa-fw mr-2"></i> Email: contacto@ccroma.mx</p>
         </div>
-        <form action="/action_page.php" target="_blank">
+        <form action="https://formsubmit.co/contacto@ccroma.mx" method="POST" target="_blank">
           <div class="form-group mb-3">
-            <input type="text" class="form-control" placeholder="Juan Rodriguez" required name="Name" id="name">
+            <input type="text" class="form-control" placeholder="Juan Rodriguez" required name="Name" id="name"
+              pattern="[A-Za-zÀ-ÿ\s]+" title="Solo se permiten letras y espacios">
           </div>
           <div class="form-group mb-3">
-            <input type="email" class="form-control" placeholder="juanrod@email.com" required name="Email" id="email">
+            <input type="email" class="form-control" placeholder="juanrod@email.com" required name="Email" id="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingresa un correo electrónico válido">
           </div>
           <div class="form-group mb-3">
-            <input type="text" class="form-control" placeholder="Asunto" required name="Subject" id="subject">
+            <input type="text" class="form-control" placeholder="Asunto" required name="Subject" id="subject"
+              pattern="[A-Za-z0-9À-ÿ\s]{3,}"
+              title="El asunto debe tener al menos 3 caracteres y no contener caracteres especiales">
           </div>
           <div class="form-group mb-3">
-            <textarea class="form-control" placeholder="Mensaje" required name="Message" id="message"></textarea>
+            <textarea class="form-control" placeholder="Mensaje" required name="Message" id="message" pattern=".{10,}"
+              title="El mensaje debe tener al menos 10 caracteres"></textarea>
           </div>
           <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-dark btn-lg"><i class="fa fa-paper-plane"></i> Enviar</button>
+            <button type="submit" id="formButton" class="btn btn-dark btn-lg"><i class="fa fa-paper-plane"></i> Enviar</button>
           </div>
         </form>
+        <div class="container flex center">
+          <div class="contact-form-loader none"></div>
+          <h4 class="contact-form-response none">Sus datos han sido enviados correctamente, lo contactaremos en breve. 😉</h4>
+        </div>
       </div>
     </div>
   </section>
