@@ -330,4 +330,102 @@ section {
   }
 }
 
+/* Mejoras para dispositivos móviles */
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 80px; /* Reducido para móviles */
+  }
 
+  body {
+    font-size: 14px; /* Texto base más pequeño para móviles */
+  }
+
+  .container {
+    margin-top: 1.5rem;
+    padding: 0 15px;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+
+  .lead {
+    font-size: 1.1rem !important;
+    padding: 0 15px;
+  }
+
+  /* Ajustes para la imagen de fondo en el header */
+  .bgimg-1 {
+    background-attachment: scroll;
+    height: 90vh;
+    background-position: center;
+  }
+
+  /* Ajustes para la sección de redes sociales */
+  .social {
+    bottom: 10px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+  /* Ajustes para secciones */
+  section {
+    padding: 40px 0;
+  }
+
+  /* Ajustes para imágenes */
+  #imagen-tabasco {
+    width: 95%;
+  }
+
+  /* Ajustes para el formulario de contacto */
+  .contact-form {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* Ajustes para el navbar */
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-brand img {
+    width: 72px !important;
+  }
+}
+
+/* Ajustes específicos para dispositivos muy pequeños */
+@media (max-width: 375px) {
+  body {
+    font-size: 13px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 1.75rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .social {
+    font-size: 1.25rem !important;
+  }
+
+  .navbar-brand img {
+    width: 64px !important;
+  }
+}
