@@ -45,6 +45,7 @@ hr{
 
 body {
   font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* HTML: <div class="loader"></div> */
@@ -427,5 +428,73 @@ section {
 
   .navbar-brand img {
     width: 64px !important;
+  }
+}
+
+/* Modo oscuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121518;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .navbar {
+    background-color: rgba(18, 21, 24, 0.95) !important;
+  }
+
+  .offcanvas {
+    background-color: #121518;
+    color: #fff;
+  }
+
+  .offcanvas .btn-close {
+    filter: invert(1);
+  }
+
+  .offcanvas .nav-link {
+    color: #fff;
+  }
+
+  section {
+    background-color: #121518;
+  }
+
+  .text-muted {
+    color: #a0a0a0 !important;
+  }
+
+  .card {
+    background-color: #1a1e22;
+    border-color: #2a2e32;
+  }
+
+  .form-control, .form-select {
+    background-color: #1a1e22;
+    border-color: #2a2e32;
+    color: #fff;
+  }
+
+  .form-control:focus, .form-select:focus {
+    background-color: #1a1e22;
+    border-color: #3a3e42;
+    color: #fff;
+  }
+
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #121518;
+  }
+
+  .contact-form-loader {
+    background: #ffffff;
   }
 }
