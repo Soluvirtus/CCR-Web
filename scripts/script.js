@@ -45,6 +45,28 @@ d.addEventListener("submit", (e) => {
   }, 3000);
 })
 
+// Flash notification functionality
+const historiaButton = document.querySelector('#historiaBtn');
+if (historiaButton) {
+  historiaButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    const notification = document.getElementById('flashNotification');
+    
+    // Show notification
+    notification.classList.add('show');
+    
+    // Hide notification after 2 seconds
+    setTimeout(() => {
+      notification.classList.add('hide');
+      
+      // Remove classes after animation
+      setTimeout(() => {
+        notification.classList.remove('show', 'hide');
+      }, 500);
+    }, 2000);
+  });
+}
+
 // Detectar si la URL actual es "/links"
 if (window.location.pathname === '/links') {
   // Redirigir a linktree.html
