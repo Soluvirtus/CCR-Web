@@ -548,6 +548,31 @@ section {
   }
 }
 
+/* Toast Notification */
+.toast {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.toast-container {
+  z-index: 9999;
+}
+
+@media (prefers-color-scheme: dark) {
+  .toast {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: #121518 !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .toast {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: white !important;
+  }
+}
+
 /* Flash Notification */
 .flash-notification {
   position: fixed;
