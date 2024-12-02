@@ -163,11 +163,23 @@
   </section>
 
   <!-- Sección de Imagen -->
-  <section id="imagen" class="text-center section-img">
+<section id="imagen" class="text-center section-img">
+  <img id="imagen-tabasco" src="img/ccrppl.jpg" class="img-fluido cursor-pointer" alt="Responsive image" onclick="openImageModal(this.src)">
+</section>
 
-    <img id="imagen-tabasco" src="img/ccrppl.jpg" class="img-fluido" alt="Responsive image">
-
-  </section>
+<!-- Modal para imagen completa -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex align-items-center justify-content-center">
+        <img id="modalImage" src="" class="img-fluid" alt="Imagen en pantalla completa">
+      </div>
+    </div>
+  </div>
+</div>
 
   <section id="horarios" class="text-center section-small pt-5 pb-5">
     <p>📅</p>

@@ -632,3 +632,16 @@ section {
     color: #121518;
   }
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.modal-fullscreen .modal-content {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.modal-fullscreen img {
+    max-height: 90vh;
+    object-fit: contain;
+}

@@ -52,4 +52,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.location.pathname === '/links') {
         window.location.replace('/linktree.html');
     }
+
+    // Función para abrir imagen en modal
+    window.openImageModal = function(imgSrc) {
+        const modalImage = document.getElementById('modalImage');
+        modalImage.src = imgSrc;
+        const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+        imageModal.show();
+    }
 });
