@@ -58,6 +58,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalImage = document.getElementById('modalImage');
         modalImage.src = imgSrc;
         const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+        
+        // Agregar evento para cerrar al hacer clic fuera de la imagen
+        const modalBody = document.querySelector('.modal-body');
+        modalBody.addEventListener('click', function(e) {
+            if (e.target === modalBody) {
+                imageModal.hide();
+            }
+        });
+        
         imageModal.show();
     }
 });
