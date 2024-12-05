@@ -46,6 +46,19 @@ img {
   width: 80%;
 }
 
+#imagen-fundamentos {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+.img-fluido {
+  max-width: 100%;
+  height: auto;
+}
+
 figcaption i{
   font-size: 0.8rem;
 }
@@ -73,7 +86,7 @@ hr{
   padding: 8px;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: #000000;
+  background: #000000b4;
   --_m: 
     conic-gradient(#0000 10%,#000),
     linear-gradient(#000 0 0) content-box;
@@ -153,12 +166,12 @@ hr{
   font-size: 1.1rem;
   padding: 2px;
   margin-right: 30px;
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.815)),
     linear-gradient(
       to right,
       rgb(255, 255, 255),
       rgb(255, 255, 255),
-      rgb(0, 0, 0)
+      rgba(0, 0, 0, 0.822)
     );
   background-size: 100% 0.1em, 0 0.1em;
   background-position: 100% 100%, 0 100%;
@@ -183,12 +196,12 @@ hr{
 }
 
 .offcanvas .nav-link {
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.815)),
     linear-gradient(
       to right,
       rgb(255, 255, 255),
       rgb(255, 255, 255),
-      rgb(0, 0, 0)
+      rgba(0, 0, 0, 0.822)
     );
   background-size: 100% 0.1em, 0 0.1em;
   background-position: 100% 100%, 0 100%;
@@ -218,7 +231,7 @@ section {
   padding: 5;
   min-height: 15vh;
   font-size: 1.5rem;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.712);
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -453,7 +466,7 @@ section {
 /* Modo oscuro */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121518;
+    background-color: rgba(18, 21, 24, 0.85);
     color: #fff;
   }
 
@@ -462,13 +475,13 @@ section {
   }
 
   .navbar {
-    background-color: rgba(18, 21, 24, 0.95) !important;
+    background-color: rgba(18, 21, 24, 0.459) !important;
   }
 
   .offcanvas {
-    background-color: rgba(18, 21, 24, 0.95);
+    background-color: rgba(18, 21, 24, 0.76);
     color: #fff;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
   }
 
   .offcanvas .btn-close {
@@ -480,13 +493,13 @@ section {
   }
 
   section {
-    background-color: rgba(18, 21, 24, 0.85);
-    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.438);
+    backdrop-filter: blur(6px);
   }
 
   .section-img {
-    background-color: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(7px);
   }
 
   .text-muted {
@@ -538,6 +551,37 @@ section {
   select option {
     background-color: rgba(26, 30, 34, 0.95);
     color: rgba(255, 255, 255, 0.9);
+  }
+
+  .accordion-item {
+    background-color: rgba(26, 30, 34, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+    backdrop-filter: blur(5px);
+  }
+
+  .accordion-button {
+    background-color: rgba(33, 37, 41, 0.6);
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    justify-content: center;
+    padding: 1.25rem 2rem;
+    backdrop-filter: blur(5px);
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(33, 37, 41, 0.75);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .accordion-button:hover {
+    background-color: rgba(33, 37, 41, 0.8);
+  }
+
+  .accordion-body {
+    background-color: rgba(26, 30, 34, 0.4);
+    color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
   }
 }
 
@@ -638,10 +682,110 @@ section {
 }
 
 .modal-fullscreen .modal-content {
-    background-color: rgba(0, 0, 0, 0.9) !important;
+    background-color: rgba(0, 0, 0, 0.685) !important;
 }
 
 .modal-fullscreen img {
     max-height: 90vh;
     object-fit: contain;
+}
+
+/* Estilos para el acordeón de lecciones */
+.accordion-item {
+  margin-bottom: 0rem;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  text-align: center;
+  justify-content: center;
+  padding: 1.25rem 2rem;
+  background-color: rgba(255, 255, 255, 0.151);
+  backdrop-filter: blur(2px);
+  border-radius: 1px;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.accordion-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn {
+  border-radius: 12px;
+}
+
+.form-control, 
+.form-select {
+  border-radius: 12px;
+}
+
+iframe {
+  border-radius: 15px !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .accordion-item {
+    background-color: rgba(26, 30, 34, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-bottom: 1rem;
+    backdrop-filter: blur(2px);
+  }
+
+  .accordion-button {
+    background-color: rgba(33, 37, 41, 0.233);
+    color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    justify-content: center;
+    padding: 1.25rem 2rem;
+    backdrop-filter: blur(2px);
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(33, 37, 41, 0.75);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .accordion-button:hover {
+    background-color: rgba(33, 37, 41, 0.432);
+  }
+
+  .accordion-body {
+    background-color: rgba(26, 30, 34, 0.4);
+    color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+  }
+}
+
+/* Botones de referencias bíblicas */
+.btn-outline-secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Botones de compartir */
+.btn-outline-primary {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: inherit;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
 }

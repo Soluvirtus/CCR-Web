@@ -1,0 +1,169 @@
+/* Estilos específicos para fundamentos.html */
+.fundamentos-container {
+  padding: 2rem 0;
+}
+
+.fundamentos-container .accordion-item {
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.fundamentos-container .accordion-button {
+  text-align: center;
+  justify-content: center;
+  padding: 1.25rem 2rem;
+  background-color: rgba(255, 255, 255, 0.151);
+  backdrop-filter: blur(2px);
+  border-radius: 1px;
+}
+
+.fundamentos-container .accordion-button:not(.collapsed) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.fundamentos-container .accordion-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.fundamentos-container .card {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+}
+
+.fundamentos-container iframe {
+  border-radius: 15px !important;
+}
+
+.fundamentos-container .btn {
+  border-radius: 6px;
+}
+
+/* Estilos para los iconos en los botones */
+.fundamentos-container .btn i.fa,
+.fundamentos-container .btn i.bi {
+  font-size: 0.9rem;
+  margin-right: 0.3rem;
+}
+
+.fundamentos-container .share-buttons .btn {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+}
+
+.fundamentos-container .btn-outline-secondary {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+}
+
+/* Ajuste específico para el icono de transcripción */
+.fundamentos-container .btn-outline-secondary i.bi-file-text {
+  font-size: 0.8rem;
+}
+
+/* Ajuste específico para iconos de redes sociales */
+.fundamentos-container .share-buttons i.fa {
+  font-size: 0.8rem;
+}
+
+/* Modo oscuro para fundamentos */
+@media (prefers-color-scheme: dark) {
+  .fundamentos-container .accordion-item {
+    background-color: rgba(26, 30, 34, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+  }
+
+  .fundamentos-container .accordion-button {
+    background-color: rgba(33, 37, 41, 0.233);
+    color: rgba(255, 255, 255, 0.89);
+  }
+
+  .fundamentos-container .accordion-button:not(.collapsed) {
+    background-color: rgba(33, 37, 41, 0.712);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .fundamentos-container .accordion-button:hover {
+    background-color: rgba(33, 37, 41, 0.432);
+  }
+
+  .fundamentos-container .accordion-body {
+    background-color: rgba(26, 30, 34, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(2px);
+  }
+
+  .fundamentos-container .card {
+    background-color: rgba(26, 30, 34, 0.3);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Estilos específicos para el acordeón del resumen */
+#resumenAcordeon .accordion-item {
+  background-color: rgba(255, 255, 255, 0.596);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#resumenAcordeon .accordion-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: inherit;
+  text-align: center;
+  justify-content: center;
+}
+
+#resumenAcordeon .accordion-button:not(.collapsed) {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#resumenAcordeon .accordion-body {
+  background-color: rgba(255, 255, 255, 0.726);
+  padding: 2rem;
+}
+
+#resumenAcordeon ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#resumenAcordeon li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+#resumenAcordeon li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Modo oscuro para el acordeón del resumen */
+@media (prefers-color-scheme: dark) {
+  #resumenAcordeon .accordion-item {
+    background-color: rgba(26, 30, 34, 0.2);
+  }
+
+  #resumenAcordeon .accordion-button {
+    background-color: rgba(33, 37, 41, 0.3);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  #resumenAcordeon .accordion-button:not(.collapsed) {
+    background-color: rgba(33, 37, 41, 0.4);
+  }
+
+  #resumenAcordeon .accordion-body {
+    background-color: rgba(26, 30, 34, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
