@@ -466,7 +466,7 @@ section {
 /* Modo oscuro */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: rgba(18, 21, 24, 0.85);
+    background-color: rgb(18, 21, 24);
     color: #fff;
   }
 
@@ -475,7 +475,7 @@ section {
   }
 
   .navbar {
-    background-color: rgba(18, 21, 24, 0.87) !important;
+    background-color: rgba(18, 21, 24, 0.938);
   }
 
   .offcanvas {
@@ -503,7 +503,7 @@ section {
   }
 
   .text-muted {
-    color: rgba(160, 160, 160, 0.9) !important;
+    color: rgba(160, 160, 160, 0.9);
   }
 
   .card {
