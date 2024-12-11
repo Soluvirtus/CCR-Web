@@ -583,6 +583,14 @@ section {
     color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(5px);
   }
+
+  .logo-light-mode {
+    display: none !important;
+  }
+
+  .logo-dark-mode {
+    display: block !important;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
