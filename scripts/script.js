@@ -69,4 +69,21 @@ document.addEventListener('DOMContentLoaded', function() {
         
         imageModal.show();
     }
+
+    // Función para cargar transcripciones
+    for (let i = 1; i <= 13; i++) {
+        const transcripcionDiv = document.querySelector(`#transcripcion${i} .transcripcion-contenido`);
+        if (transcripcionDiv) {
+            const transcripcionKey = `leccion${i}`;
+            if (transcripciones && transcripciones[transcripcionKey]) {
+                const textoFormateado = transcripciones[transcripcionKey]
+                    .split('\n\n')
+                    .map(parrafo => `<p>${parrafo.trim()}</p>`)
+                    .join('');
+                transcripcionDiv.innerHTML = textoFormateado;
+            } else {
+                transcripcionDiv.innerHTML = '<p>Transcripción no disponible por el momento.</p>';
+            }
+        }
+    }
 });
