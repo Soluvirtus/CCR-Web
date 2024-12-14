@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <audio id="linkSound" src="sound/link.mp3"></audio>
     <div class="container"></div>
     <div class="profile">
         <img class="profile-img" src="img/logo34.png" alt="Foto de perfil">
@@ -54,5 +55,15 @@
         </a>
     </div>
 </body>
+
+<script>
+    document.querySelectorAll('.link').forEach(link => {
+        link.addEventListener('click', () => {
+            const audio = document.getElementById('linkSound');
+            audio.currentTime = 0; // Reinicia el sonido si ya estaba reproduciéndose
+            audio.play();
+        });
+    });
+</script>
 
 </html>
