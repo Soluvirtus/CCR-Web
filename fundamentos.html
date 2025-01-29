@@ -1154,5 +1154,40 @@
   <script src="scripts/script.js"></script>
   <!-- Script de Transcripción -->
   <script src="scripts/transcripciones.js"></script>
-  </body>
-  </html>
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+          console.log('Service Worker registrado con éxito:', registration);
+        }).catch(function(error) {
+          console.log('Error al registrar el Service Worker:', error);
+        });
+      });
+    }
+
+    let deferredPrompt;
+    const installButton = document.getElementById('installButton');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      installButton.style.display = 'block';
+    });
+
+    installButton.addEventListener('click', () => {
+      installButton.style.display = 'none';
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('Usuario aceptó la instalación');
+        } else {
+          console.log('Usuario rechazó la instalación');
+        }
+        deferredPrompt = null;
+      });
+    });
+  </script>
+  <button id="installButton" style="display: none;">Instalar Aplicación</button>
+</body>
+</html>
