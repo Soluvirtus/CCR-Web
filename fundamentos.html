@@ -1136,31 +1136,6 @@
     </div>
   </div>
 </section>
-  <!-- Instalar App -->
-  <button id="installButton">Instalar App</button>
-
-  <script>
-    let deferredPrompt;
-    const installButton = document.getElementById('installButton');
-  
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      installButton.style.display = 'block';
-  
-      installButton.addEventListener('click', () => {
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('Usuario aceptó instalar la app');
-          } else {
-            console.log('Usuario rechazó instalar la app');
-          }
-          deferredPrompt = null;
-        });
-      });
-    });
-  </script>
   
   <!-- Footer -->
   <footer class="text-center text-white bg-dark py-4">
