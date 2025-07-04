@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Comunidad Cristiana Roma" />
+  <meta property="og:description" content="Comunidad Cristiana Roma Página Oficial" />
+  <meta property="og:image" content="https://ccroma.mximg/ccr2.jpeg" />
+  <meta property="og:url" content="https://ccroma.mx" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Comunidad Cristiana Roma" />
+  <meta name="twitter:description" content="Comunidad Cristiana Roma Página Oficial" />
+  <meta name="twitter:image" content="https://ccroma.mximg/ccr2.jpeg" />
+  <meta name="twitter:url" content="https://ccroma.mx" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comunidad Cristiana Roma</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fuentes y Estilos Adicionales -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Inconsolata|Work Sans|Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Site Icons -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body class="smooth-scroll">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="/img/ccr_logo_white.png" alt="Logo" style="width: 92px;">
+      </a>
+
+      <!-- Menú de Escritorio -->
+      <div class="collapse navbar-collapse justify-content-end d-none d-lg-flex" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-house"></i> Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros"><i class="bi bi-people-fill"></i> Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horarios"><i class="bi bi-calendar3"></i> Horarios</a></li>
+          <li class="nav-item"><a class="nav-link" href="fundamentos" target="_blank"><i class="bi bi-book"></i>
+              Cursos</a></li>
+
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#contacto"><i class="bi bi-envelope-fill"></i> Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Botón Toggler para Móviles -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Offcanvas para Móviles -->
+  <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header p-4">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#"><i class="bi bi-house"></i>
+            Inicio</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#nosotros"><i
+              class="bi bi-people-fill"></i> Nosotros</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#horarios"><i
+              class="bi bi-calendar3"></i> Horarios</a></li>
+        <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#contacto"><i
+              class="bi bi-envelope-fill"></i> Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="fundamentos" target="_blank"><i class="bi bi-book"></i>
+            Cursos</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Header con Imagen de Fondo -->
+  <header class="d-flex align-items-center justify-content-center text-center" id="home">
+    <div class="d-flex bgimg-1 align-items-center justify-content-center text-center">
+      <div class="container">
+        <h1 class="display-4 d-none d-md-block">¿Lorem ipsum dolor sit amet?</h1>
+        <h1 class="display-5 d-md-none">¿Lorem ipsum dolor sit amet?</h1>
+        <p class="lead"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facere quia est"
+          <br>- Paul Washer.
+        </p>
+        <a href="#contacto" class="btn btn-outline-light btn-lg mt-3">¡Visítanos!</a>
+      </div>
+      <!-- Íconos de Redes Sociales -->
+      <div class="position-absolute social" style="bottom: 20px; left: 20px; font-size: x-large;">
+        <a href="https://www.facebook.com/ComunidadCristianaRoma" target="_blank"><i
+            class="fa fa-facebook-official mr-2"></i></a>
+        <a href="https://www.instagram.com/comunidadcristianaroma/?hl=es-la" target="_blank"><i
+            class="fa fa-instagram mr-2"></i></a>
+        <a href="https://soundcloud.com/ccroma" target="_blank"><i class="fa fa-soundcloud mr-2"></i></a>
+        <a href="https://open.spotify.com/show/104ya0Ir2HJlRoVo5JCI5J" target="_blank"><i
+            class="fa fa-spotify mr-2"></i></a>
+        <a href="https://www.youtube.com/@comunidadcristianaroma3343/streams" target="_blank"><i
+            class="fa fa-youtube mr-2"></i></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Sección Sobre Nosotros -->
+    <section id="nosotros" class="container text-center">
+      <div class="container">
+        <p>⛪ </p>
+        <h2><b>Sobre Nosotros</b></h2>
+        <div class="row flex-sm-column text-center mt-3 d-flex">
+          <!-- Logo a la Izquierda -->
+          <div class="col-sm-12 col-lg-12 col-md-12  d-flex justify-content-center align-items-center">
+            <img src="img/ccr.svg" alt="Logo" height="50%" class="logo-light-mode">
+            <img src="img/ccr.svg" alt="Logo" height="50%" class="logo-dark-mode d-none">
+          </div>
+          <!-- Descripción -->
+          <div class="col-sm-12 col-lg-12 col-md-12 mb-5">
+            <p class="semblanza">Bienvenidos a <b><i>Comunidad Cristiana Roma</i></b>, una iglesia cristiana
+              comprometida
+              con la enseñanza fiel de la Palabra de Dios y con la transformación de vidas a través del mensaje del
+              evangelio. Nuestra misión es glorificar a Dios al edificar una comunidad centrada en Cristo.
+              <br>
+              <br> Te invitamos a conocer más sobre nuestros valores y a participar en nuestros servicios.
+            </p>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-light mb-5 p-3" data-bs-toggle="modal" data-bs-target="#historiaModal"><i
+            class="bi bi-arrow-up-right-circle-fill"></i> Conoce Nuestra Historia</button>
+      </div>
+
+    </section>
+
+    <!-- Modal Historia -->
+    <div class="modal fade" id="historiaModal" tabindex="-1" aria-labelledby="historiaModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="historiaModalLabel">Nuestra Historia</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9 mb-4">
+              <iframe src="https://www.youtube.com/embed/qZJpv7VeQPI" title="Historia de CCR" allowfullscreen></iframe>
+            </div>
+            <div class="text-start">
+              <h4>Trayectoria de Comunidad Cristiana Roma</h4>
+              <p>Celebramos diez años de fidelidad de Dios en Comunidad Cristiana Roma (CCR). Desde sus humildes
+                comienzos en la Colonia Roma Norte, esta iglesia nació del deseo de impactar a la ciudad con el
+                evangelio.</p>
+              <p>CCR comenzó como un estudio bíblico, creció orgánicamente en comunidad, y enfrentó desafíos con fe,
+                fortaleciéndose en el proceso. Historias personales, como la de Lily entregando su vida a Cristo,
+                muestran el poder transformador del evangelio en la comunidad.</p>
+              <p>Con un legado basado en "Biblia, comunidad, misión y gracia", CCR continúa enfocándose en glorificar a
+                Dios y alcanzar vidas con el evangelio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="imagen" class="text-center">
+      <!-- Sección de Imagen -->
+      <img id="imagen-tabasco" src="img/tabasco.jpg" class="img-fluid">
+    </section>
+
+    <section id="valores" class="text-center">
+      <!-- Valores -->
+      <div class="container">
+        <p>🍇</p>
+        <h2><b>Nuestros 4 Valores </b></h2>
+        <div class="text-center mt-5 mb-5">
+          <div class="row accordion" id="accordionFlushExample">
+            <div class="col-sm-6 p-4">
+              <div>
+                <i class="bi bi-book m-4"></i>
+                <h4><b>Biblia</b></h4>
+                <p>Leemos, obedecemos y compartimos la Biblia porque es la Palabra de Dios. La Biblia es el fundamento y
+                  la máxima autoridad de nuestra iglesia. Por eso, la enseñanza y el aprendizaje cuidadoso de la Biblia
+                  tienen un lugar central y prioritario en la vida de la comunidad y de sus miembros. A través de la
+                  Palabra, el Espíritu de Dios moldea y transforma nuestras mentes, corazones, oraciones, familias,
+                  doctrinas, estructuras, trabajos, vidas, matrimonios y comunidades para su gloria.</p>
+              </div>
+
+            </div>
+            <div class="col-sm-6 p-4">
+              <div>
+                <i class="bi bi-people m-4"></i>
+                <h4><b>Comunidad</b></h4>
+                <p>Vivimos la esperanza del evangelio en comunidad. Como miembros del cuerpo de Cristo, Dios nos llama a
+                  seguir a Jesús juntos. Por eso, damos prioridad a la comunidad cristiana en el uso de nuestro tiempo,
+                  energía y recursos. Como una familia diversa e interdependiente nos comprometemos el uno al otro,
+                  hablando la verdad en amor, usando nuestros dones y talentos en servicio mutuo, y desarrollando vidas
+                  santas que reflejen el carácter de Dios. La comunidad no existe sólamente para su propia edificación,
+                  si
+                  no también para el bien del mundo y la gloria de Dios.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 p-4">
+              <div>
+                <i class="bi bi-globe-americas m-4"></i>
+                <h4><b>Misión</b></h4>
+                <p>Compartimos el evangelio como el único medio de salvación para nuestro mundo. En su gracia, Dios nos
+                  ha
+                  llamado a conocerle y a darle a conocer. Como individuos y comunidad, esta identidad misionera nos
+                  impulsa a compartir las buenas nuevas de Jesús a nuestro entorno en palabra y en hecho, a servir y a
+                  orar por las comunidades donde vivimos y trabajamos con gracia y humildad, y a esforzarnos para
+                  plantar
+                  nuevas iglesias y comunidades que compartan esta misma visión.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 p-4">
+              <div>
+                <i class="bi bi-chat-heart m-4"></i>
+                <h4><b>Gracia</b></h4>
+                <p>Disfrutamos la gracia de Dios y la ofrecemos a otros. Todo lo que tenemos —desde la comida hasta la
+                  salvación— es un regalo de Dios y se convierte en motivo de gozo, agradecimiento y adoración. Como una
+                  comunidad de gracia, nos dedicamos a ser hospitalarios y generosos, prontos para creer lo mejor,
+                  perdonar, servir, sacrificarnos, animarnos y orar el uno por el otro. Reconocemos que el chisme, el
+                  orgullo, el legalismo, el mérito y la manipulación son incompatibles con este evangelio de gracia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 rounded">
+            <a href="https://drive.google.com/file/d/1ny002RgVwLMlpkIa31ygXBxlstkaC3Hy/view?usp=drive_link"
+              target="_blank" class="btn btn-warning d-flex justify-content-center p-2 m-4"><i
+                class="bi bi-download"><span>&nbsp;</span></i><span
+                class="d-flex align-items-center justify-content-center ">Declaración de Fe en 10 puntos</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Imagen -->
+    <section id="imagen" class="text-center">
+      <img id="imagen-tabasco" src="img/ccrppl.jpg" class="img-fluido cursor-pointer" alt="Responsive image"
+        onclick="openImageModal(this.src)">
+    </section>
+
+    <!-- Modal para imagen completa -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex align-items-center justify-content-center">
+            <img id="modalImage" src="" class="img-fluid" alt="Imagen en pantalla completa">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="horarios" class="text-center section-small pt-5 pb-5">
+      <p>🕦</p>
+      <h2 class="pb-4"><b>Servicio Dominical</b></h2>
+      <span class="pt-1 form-checked-content pt-5 mb-5">
+        <p> <b><i>11:30</i></b> - <b><i>13:30</i></b>
+      </span>
+    </section>
+
+    <div class="separator">
+      <hr>
+    </div>
+
+    <section id="sermones" class="text-center pb-5">
+      <p>🎧</p>
+      <h2 class="pb-4 mb-5"><b>Sermones</b></h2>
+      <div id="facebook" class="container mt-5">
+        <button type="submit" class="btn btn-light p-3 social-btn shadow-sm "><a
+            href="https://www.facebook.com/ComunidadCristianaRoma"><i class="bi bi-arrow-up-right-circle-fill"></i>
+            Facebook <i class="fa fa-facebook"></i></a></button>
+      </div>
+      <div id="spotify" class="container">
+        <button type="submit" class="btn btn-light p-3 social-btn shadow-sm"><a
+            href="https://open.spotify.com/show/104ya0Ir2HJlRoVo5JCI5J"><i class="bi bi-arrow-up-right-circle-fill"></i>
+            Spotify <i class="fa fa-spotify"></i></a></button>
+      </div>
+      <div id="youtube" class="container ">
+        <button type="submit" class="btn btn-light mb-1 p-3 social-btn shadow-sm "><a
+            href="https://www.youtube.com/@comunidadcristianaroma3343/streams"><i
+              class="bi bi-arrow-up-right-circle-fill "></i> YouTube <i class="fa fa-youtube"></i></a></button>
+      </div>
+      <div id="soundcloud" class="container">
+        <button type="submit" class="btn btn-light mb-1 p-3 social-btn shadow-sm "><a
+            href="https://soundcloud.com/ccroma" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i>
+            Soundcloud <i class="fa fa-soundcloud"></i></a></button>
+      </div>
+
+    </section>
+
+    <div class="separator">
+      <hr>
+    </div>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="text-center mb-5 container">
+      <p>📞</p>
+      <h2 class="mb-5"><b>Contacto</b></h2>
+      <p class="text-center mb-5">¿Tienes alguna pregunta o necesitas más información? No dudes en ponerte en contacto
+        con
+        nosotros.</p>
+
+      <div class="d-flex flex-column flex-md-col flex-sm-col justify-content-center align-items-center">
+        <!-- Google Map -->
+        <div class="col-8 col-md-8 col-sm-12 mb-4 mb-md-0">
+          <div class="map-container">
+            <iframe style="border-radius:12px"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8513136097363!2d-99.16435052611507!3d19.418829241123106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a18ba7147%3A0xa31890bb0fd4e385!2sTabasco%20197%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1724358582876!5m2!1ses-419!2smx"
+              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form and Info -->
+        <div
+          class="col-12 col-md-8 col-sm-12 mb-5 d-flex flex-column justify-content-center align-items-center text-break">
+          <div class="contact-info mb-5 mt-4">
+            <p><i class="fa fa-map-marker fa-fw mr-2"></i>Tabasco 197, Roma Norte, Cuahtemoc, Ciudad de México</p>
+            <p><i class="fa fa-envelope fa-fw mr-2"></i> Email: comunidadcristianaroma@gmail.com</p>
+          </div>
+          <form action="https://formsubmit.co/comunidadcristianaroma@gmail.com" method="POST" target="_blank">
+            <div class="form-group mb-3">
+              <input type="text" class="form-control" placeholder="Nombre" required name="Name" id="name"
+                pattern="[A-Za-zÀ-ÿ\s]+" title="Solo se permiten letras y espacios">
+            </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control" placeholder="Correo Electronico" required name="Email" id="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingresa un correo electrónico válido">
+            </div>
+            <div class="form-group mb-3">
+              <input type="text" class="form-control" placeholder="Asunto" required name="Subject" id="subject"
+                pattern="[A-Za-z0-9À-ÿ\s]{3,}"
+                title="El asunto debe tener al menos 3 caracteres y no contener caracteres especiales">
+            </div>
+            <div class="form-group mb-3">
+              <textarea class="form-control" placeholder="Mensaje" required name="Message" id="message" pattern=".{10,}"
+                title="El mensaje debe tener al menos 10 caracteres"></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" id="formButton" class="btn btn-dark btn-lg"><i class="fa fa-paper-plane"></i>
+                Enviar</button>
+            </div>
+          </form>
+          <div class="container flex center">
+            <div class="contact-form-loader none"></div>
+            <h4 class="contact-form-response none">Sus datos han sido enviados correctamente, lo contactaremos en breve.
+              😉</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="text-center text-white bg-dark py-4">
+    <a href="#home" class="btn btn-light mt-2"><i class="fa fa-arrow-up mr-2"></i> Ir al inicio</a>
+    <div class="my-3">
+      <a href="https://www.facebook.com/ComunidadCristianaRoma" target="_blank"><i
+          class="fa fa-facebook-official mx-2"></i></a>
+      <a href="https://www.instagram.com/comunidadcristianaroma/?hl=es-la" target="_blank"><i
+          class="fa fa-instagram mx-2"></i></a>
+      <a href="https://open.spotify.com/show/104ya0Ir2HJlRoVo5JCI5J" target="_blank"><i
+          class="fa fa-spotify mx-2"></i></a>
+      <a href="https://www.youtube.com/@comunidadcristianaroma3343/streams" target="_blank"><i
+          class="fa fa-youtube mx-2"></i></a>
+      <a href="https://soundcloud.com/ccroma" target="_blank"><i class="fa fa-soundcloud mx-2"></i></a>
+    </div>
+    <p class="mb-0"> Comunidad Cristiana Roma</p>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

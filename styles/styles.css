@@ -1,0 +1,756 @@
+html {
+  scroll-padding-top: 135px; /* Ajusta este valor según la altura del navbar */
+}
+
+body {
+  position: relative;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-dark {
+  background-color: #181818 !important;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.07;
+  filter: blur(1px) brightness(1) contrast(1.2);
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  border-radius: 3px;
+}
+
+figcaption i {
+  font-size: 0.8rem;
+}
+
+a {
+  color: rgb(134, 134, 134);
+  text-decoration: none;
+}
+
+hr {
+  width: 50%;
+}
+
+section {
+  height: auto;
+  font-size: 1.2rem;
+  /* background-color: aqua; */
+  padding: 30px 0;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+form {
+  width: 100%;
+}
+
+#valores .bi {
+  font-size: 2em;
+}
+
+section#valores h4 {
+  margin-bottom: 2rem;
+}
+
+.accordion-button::after {
+  background-color: aqua !important;
+display: none;
+}
+
+.social {
+  bottom: 10px !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+#imagen-tabasco {
+  height: auto;
+  width: 80%;
+}
+
+#imagen-fundamentos {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+.img-fluido {
+  max-width: 100%;
+  height: auto;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* HTML: <div class="loader"></div> */
+.contact-form-loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #000000b4;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+
+.none {
+  display: none;
+}
+
+#sermones div{
+  /* background-color: antiquewhite; */
+
+}
+
+#sermones button {
+  /* background-color: aqua; */
+  width: 60%;
+}
+
+
+/* Header Background Image */
+.bgimg-1 {
+  background-position: center;
+  /* background-image: url('../img/ccr1.jpeg'); */
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  color: white;
+  background-position: top center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+}
+
+.bgimg-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.bgimg-1 .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 13px;
+  background-color: rgba(0, 0, 0, 0.7); /* Nivel de opacidad inicial */
+  transition: background-color 0.5s ease;
+}
+
+.social i:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.navbar.scrolled-navbar {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    1
+  ); /* Cambia a completamente opaco cuando se hace scroll */
+}
+
+.navbar .nav-link {
+  color: white !important;
+  font-size: 1.1rem;
+  padding: 2px;
+  margin-right: 30px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.795),
+      rgba(0, 0, 0, 0.815)
+    ),
+    linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgba(0, 0, 0, 0.822)
+    );
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+/* Offcanvas Styles */
+.offcanvas {
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+}
+
+.offcanvas .btn-close {
+  background-color: white;
+}
+
+.offcanvas .nav-link {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.781),
+      rgba(0, 0, 0, 0.815)
+    ),
+    linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgba(0, 0, 0, 0.822)
+    );
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+/* Background Image for Additional Sections */
+#imagen-ccr-ppl {
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  width: 0%;
+  /* O puedes usar border-top: 1px solid transparent; */
+}
+
+
+#nosotros {
+  text-align: center;
+}
+
+#nosotros button i {
+  font-size: 1rem;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+.semblanza {
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.map-container {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* kpadding-bottom: 56.25%; Relación de aspecto 16:9 */
+}
+.map-container iframe {
+  width: 90%;
+  height: 100%;
+}
+
+.form-group input {
+  padding: 1.2rem;
+}
+
+.social-btn i {
+  color: #000 !important;
+}
+
+.navbar-nav li {
+  margin-top: 1.5rem;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+.map-container iframe {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+
+.semblanza {
+  text-align: center;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+#nosotros img {
+  transform: scale(1.5);
+}
+
+.container {
+  margin-top: 1.5rem;
+  padding: 0 15px;
+}
+
+.lead {
+  font-size: 1.1rem !important;
+  padding: 0 15px;
+}
+
+section#imagen {
+  background-color: #121518;
+}
+
+
+#imagen-tabasco {
+  width: 95%;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand img {
+  width: 72px !important;
+}
+
+.toast {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.329);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.toast-container {
+  z-index: 9999;
+}
+
+/* Flash Notification */
+.flash-notification {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.flash-notification.show {
+  opacity: 1;
+  visibility: visible;
+  animation: flashIn 0.5s ease forwards;
+}
+
+.flash-notification.hide {
+  animation: flashOut 0.5s ease forwards;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.modal-fullscreen .modal-content {
+  background-color: rgba(0, 0, 0, 0.685) !important;
+}
+
+.modal-fullscreen img {
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+/* Estilos para el acordeón de lecciones */
+/* .accordion-item {
+  margin-bottom: 0rem;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  overflow: hidden;
+} */
+
+.accordion-button {
+  /* text-align: center;
+  justify-content: center; */
+  /* padding: 1.25rem 2rem; */
+  /* background-color: rgba(255, 255, 255, 0.151);
+  backdrop-filter: blur(2px);
+  border-radius: 1px;
+   */
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.accordion-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card {
+  /* border-radius: 15px; */
+}
+
+.btn-warning {
+    margin-top: 4rem !important;
+ }
+.btn {
+  border-radius: 12px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+}
+
+iframe {
+  border-radius: 15px !important;
+}
+
+/* Botones de referencias bíblicas */
+.btn-outline-secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Botones de compartir */
+.btn-outline-primary {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: inherit;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+footer .fa:hover {
+  transform: scale(1.5); 
+}
+
+footer {
+  transition: transform .2s; /* Animation */
+}
+
+@media (min-width: 576px) {
+
+
+  section {
+    font-size: 1.3rem;
+  }
+
+  .navbar-nav li {
+    margin-top: 0rem;
+  }
+
+  .logo-light-mode {
+    width: 50%;
+  }
+
+  .logo-dark-mode {
+    width: 20%;
+  }
+
+  .img-fluido {
+    max-width: 70%;
+    height: auto;
+  }
+
+  #imagen-tabasco {
+    max-width: 70%;
+    height: auto;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(18, 21, 24);
+    color: #fff;
+  }
+
+  section {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(6px);
+  }
+  a {
+    color: rgb(134, 134, 134);
+  }
+
+  .navbar {
+    background-color: rgba(18, 21, 24, 0.938);
+  }
+
+  .offcanvas {
+    background-color: rgba(18, 21, 24, 0);
+    color: #fff;
+    backdrop-filter: blur(5px);
+  }
+
+  .offcanvas .btn-close {
+    filter: invert(1);
+  }
+
+  .offcanvas .nav-link {
+    color: #fff;
+  }
+
+  .section-img {
+    background-color: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(7px);
+  }
+
+  .text-muted {
+    color: rgba(160, 160, 160, 0.9);
+  }
+
+  .card {
+    /* background-color: rgba(26, 30, 34, 0.85); */
+    /* /* border-color: none; */
+    backdrop-filter: blur(5px);
+    border:none; 
+
+  }
+
+  .card-body {
+    /* background-color: rgba(18, 21, 24, 0.938); */
+    /* border-radius: 1rem; */
+    /* border-radius: 10%; */
+
+    /* color: #fff; */
+  }
+
+  .modal-body {
+    background-color: rgba(18, 21, 24, 0.938);
+  }
+
+  .card-img-top {
+    border-radius: 0%;
+  }
+
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #121518;
+  }
+
+  .contact-form-loader {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  /* Ajustes adicionales para el formulario */
+  label {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  select option {
+    background-color: rgba(26, 30, 34, 0.95);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .accordion-item {
+    background-color: rgba(26, 30, 34, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* margin-bottom: rem; */
+    backdrop-filter: blur(5px);
+  }
+
+  .accordion-button {
+    background-color: rgba(33, 37, 41, 0.6);
+    color: rgba(255, 255, 255, 0.95);
+    /* text-align: center;
+    justify-content: center; */
+    /* padding: 1.25rem 2rem; */
+    backdrop-filter: blur(5px);
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(33, 37, 41, 0.75);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .accordion-button:hover {
+    background-color: rgba(33, 37, 41, 0.8);
+  }
+
+  .accordion-body {
+    background-color: rgba(26, 30, 34, 0.4);
+    color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+  }
+
+  .logo-light-mode {
+    display: none !important;
+  }
+
+  .logo-dark-mode {
+    filter: invert(1);
+    display: block !important;
+  }
+
+  body::before {
+    opacity: 0.1;
+    filter: blur(2px) brightness(0.7) contrast(1.1);
+  }
+
+  .flash-notification {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #121518;
+  }
+
+  .accordion-item {
+    /* background-color: rgba(26, 30, 34, 0);
+    border: 1px solid rgba(255, 255, 255, 0); */
+    margin-bottom: 1rem;
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+
+  }
+
+  .accordion-button {
+    background-color: rgba(0, 0, 0, 0.465);
+    color: rgba(255, 255, 255, 0.89);
+    /* text-align: left;
+    justify-content: center; */
+    /* padding: 1.25rem 2rem; */
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+
+  }
+
+  .card {
+    /* background-color: #fff; */
+  }
+  /* .accordion-button-valores {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.838);
+    color: rgba(0, 0, 0, 0.89);
+    text-align: center;
+    justify-content: center;
+    padding: 1.2rem 2rem;
+    backdrop-filter: blur(2px);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(33, 37, 41, 0.75);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .accordion-button:hover {
+    background-color: rgba(33, 37, 41, 0.432);
+  }
+
+  .accordion-body {
+    background-color: rgba(26, 30, 34, 0.4);
+    color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+  } */
+
+
+}
+
+@media (prefers-color-scheme: light) {
+  .toast {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: white !important;
+  }
+}
+
+@keyframes flashIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes flashOut {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+}
+
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
