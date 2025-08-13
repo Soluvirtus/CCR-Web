@@ -8,10 +8,222 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
+  background-color: #ffffff; /* Light gray background for light mode */
+  color: #212529; /* Dark text color for light mode */
 }
 
-.bg-dark {
+body.dark-mode {
+  background-color: rgb(18, 21, 24);
+  color: #fff;
+}
+
+body.dark-mode section {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(6px);
+}
+
+body.dark-mode .navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background for dark mode */
+}
+
+body.dark-mode .offcanvas {
+  background-color: black;
+  color: white;
+  backdrop-filter: blur(5px);
+}
+
+body.dark-mode .btn-close {
+  filter: invert(1);
+}
+
+
+
+body.dark-mode .offcanvas .nav-link {
+  color: #fff;
+}
+
+body.dark-mode .navbar .nav-link {
+  color: white !important;
+}
+
+body.dark-mode .navbar.scrolled-navbar {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    1
+  ); /* Dark background when scrolled in dark mode */
+}
+
+body.dark-mode .section-img {
+  background-color: rgba(0, 0, 0, 0.171);
+  backdrop-filter: blur(7px);
+}
+
+body.dark-mode .text-muted {
+  color: rgba(160, 160, 160, 0.9);
+}
+
+body.dark-mode .card {
+  backdrop-filter: blur(5px);
+  border: none;
+}
+
+
+body.dark-mode .modal-body {
+  background-color: rgba(18, 21, 24, 0.938);
+}
+
+body.dark-mode .modal-header {
+  background-color: rgba(18, 21, 24, 0.938);
+}
+
+body.dark-mode .modal-header button{
+  background-color: rgba(255, 255, 255, 0.938);
+}
+
+body.dark-mode .card-img-top {
+  border-radius: 0%;
+}
+
+body.dark-mode .btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+body.dark-mode .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #121518;
+}
+
+body.dark-mode .contact-form-loader {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode label {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+body.dark-mode select option {
+  background-color: rgba(26, 30, 34, 0.95);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+.accordion-button {
+  text-align: center;
+  justify-content: center;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.accordion-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Dark Mode General Accordion Styles (if needed for other accordions on site) */
+body.dark-mode .accordion-item {
+  background-color: rgba(26, 30, 34, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+body.dark-mode .accordion-button {
+  background-color: rgba(33, 37, 41, 0.6);
+  color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+}
+
+body.dark-mode .accordion-button:not(.collapsed) {
+  background-color: rgba(33, 37, 41, 0.75);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+body.dark-mode .accordion-button:hover {
+  background-color: rgba(33, 37, 41, 0.8);
+}
+
+body.dark-mode .accordion-body {
+  background-color: rgba(26, 30, 34, 0.4);
+  color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+}
+
+/* Force Footer Accordion to be Dark (Overrides general dark mode for footer) */
+footer .accordion-item {
+    background-color: #1a1a1a; /* Very dark gray/black */
+    border-color: #333; /* Dark border */
+    color: #fff; /* White text */
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(2px);
+}
+
+footer .accordion-button {
+    background-color: #1a1a1a; /* Very dark gray/black */
+    color: #fff; /* White text */
+    border-radius: 1rem;
+    backdrop-filter: blur(2px);
+}
+
+footer .accordion-button:not(.collapsed) {
+    background-color: #222; /* Slightly lighter dark for expanded state */
+    color: #fff;
+}
+
+footer .accordion-button:hover {
+    background-color: #333; /* Even lighter dark on hover */
+    color: #fff;
+}
+
+footer .accordion-body {
+    background-color: #222; /* Dark background for body */
+    color: #fff; /* White text */
+}
+
+body.dark-mode .logo-light-mode {
+  display: none !important;
+}
+
+body.dark-mode .logo-dark-mode {
+  filter: invert(1);
+  display: block !important;
+}
+
+body.dark-mode::before {
+  opacity: 0.1;
+  filter: blur(2px) brightness(0.7) contrast(1.1);
+}
+
+body.dark-mode .flash-notification {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #121518;
+}
+
+body.dark-mode .flash-notification {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark background for dark mode */
+  color: white; /* Light text for dark mode */
+}
+
+body.dark-mode .bg-dark {
   background-color: #181818 !important;
+}
+
+body.dark-mode .modal-fullscreen .modal-content {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.685
+  ) !important; /* Dark background for dark mode */
 }
 
 body::before {
@@ -48,7 +260,7 @@ figcaption i {
 }
 
 a {
-  color: rgb(134, 134, 134);
+  color: black; /* A standard blue for links in light mode */
   text-decoration: none;
 }
 
@@ -59,7 +271,6 @@ hr {
 section {
   height: auto;
   font-size: 1.2rem;
-  /* background-color: aqua; */
   padding: 30px 0;
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
@@ -79,7 +290,7 @@ section#valores h4 {
 
 .accordion-button::after {
   background-color: aqua !important;
-display: none;
+  display: none;
 }
 
 .social {
@@ -91,11 +302,6 @@ display: none;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border-radius: 25px;
-}
-
-#imagen-tabasco {
-  height: auto;
-  width: 80%;
 }
 
 #imagen-fundamentos {
@@ -139,21 +345,17 @@ display: none;
   display: none;
 }
 
-#sermones div{
-  /* background-color: antiquewhite; */
-
+#sermones div {
+  
 }
 
 #sermones button {
-  /* background-color: aqua; */
   width: 60%;
 }
-
 
 /* Header Background Image */
 .bgimg-1 {
   background-position: center;
-  /* background-image: url('../img/ccr1.jpeg'); */
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -161,18 +363,29 @@ display: none;
   color: white;
   background-position: top center;
   background-repeat: no-repeat;
-  transition: background-image 1s ease-in-out;
 }
 
-.bgimg-1::before {
-  content: "";
+.bgimg-1 .bg-image-layer {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.493);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
+
+.bgimg-1 .bg-image-layer.active {
+  opacity: 1;
+}
+
+
+
+
 
 .bgimg-1 .container {
   position: relative;
@@ -182,8 +395,16 @@ display: none;
 /* Navbar Styles */
 .navbar {
   padding: 13px;
-  background-color: rgba(0, 0, 0, 0.7); /* Nivel de opacidad inicial */
+  background-color: rgba(0, 0, 0, 0.7); /* Light background for light mode */
   transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled-navbar {
+  background-color: rgb(
+    0,
+    0,
+    0
+  ); /* Light background when scrolled in light mode */
 }
 
 .social i:hover {
@@ -191,31 +412,11 @@ display: none;
   transform: scale(1.5);
 }
 
-.navbar.scrolled-navbar {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    1
-  ); /* Cambia a completamente opaco cuando se hace scroll */
-}
-
 .navbar .nav-link {
-  color: white !important;
+  color: #ffffff !important; /* Dark text color for light mode */
   font-size: 1.1rem;
   padding: 2px;
   margin-right: 30px;
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.795),
-      rgba(0, 0, 0, 0.815)
-    ),
-    linear-gradient(
-      to right,
-      rgb(255, 255, 255),
-      rgb(255, 255, 255),
-      rgba(0, 0, 0, 0.822)
-    );
   background-size: 100% 0.1em, 0 0.1em;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -228,28 +429,8 @@ display: none;
 }
 
 /* Offcanvas Styles */
-.offcanvas {
-  font-size: xx-large;
-  background-color: black;
-  color: white;
-}
 
-.offcanvas .btn-close {
-  background-color: white;
-}
-
-.offcanvas .nav-link {
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.781),
-      rgba(0, 0, 0, 0.815)
-    ),
-    linear-gradient(
-      to right,
-      rgb(255, 255, 255),
-      rgb(255, 255, 255),
-      rgba(0, 0, 0, 0.822)
-    );
+body.dark-mode .offcanvas .nav-link {
   background-size: 100% 0.1em, 0 0.1em;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -262,9 +443,8 @@ display: none;
   margin-top: 5rem;
   margin-bottom: 3rem;
   width: 0%;
-  /* O puedes usar border-top: 1px solid transparent; */
+  
 }
-
 
 #nosotros {
   text-align: center;
@@ -290,7 +470,6 @@ display: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* kpadding-bottom: 56.25%; Relación de aspecto 16:9 */
 }
 .map-container iframe {
   width: 90%;
@@ -307,6 +486,7 @@ display: none;
 
 .navbar-nav li {
   margin-top: 1.5rem;
+  font-size: xx-large;
 }
 
 .map-container {
@@ -314,7 +494,6 @@ display: none;
   height: 100%;
 }
 .map-container iframe {
-  /* position: absolute; */
   width: 100%;
   height: 100%;
 }
@@ -330,7 +509,6 @@ display: none;
 }
 
 .container {
-  margin-top: 1.5rem;
   padding: 0 15px;
 }
 
@@ -339,16 +517,7 @@ display: none;
   padding: 0 15px;
 }
 
-section#imagen {
-  background-color: #121518;
-}
-
-
-#imagen-tabasco {
-  width: 95%;
-}
-
-.contact-form {
+body.dark-mode .contact-form {
   width: 100%;
   padding: 0 15px;
 }
@@ -377,8 +546,13 @@ section#imagen {
   top: 100px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Light background for light mode */
+  color: #121518; /* Dark text for light mode */
   padding: 15px 30px;
   border-radius: 50px;
   font-size: 1.2rem;
@@ -407,7 +581,12 @@ section#imagen {
 }
 
 .modal-fullscreen .modal-content {
-  background-color: rgba(0, 0, 0, 0.685) !important;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.685
+  ) !important; /* Light background for light mode */
 }
 
 .modal-fullscreen img {
@@ -415,23 +594,12 @@ section#imagen {
   object-fit: contain;
 }
 
-/* Estilos para el acordeón de lecciones */
-/* .accordion-item {
-  margin-bottom: 0rem;
-  background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(3px);
-  border-radius: 15px;
-  overflow: hidden;
-} */
+
 
 .accordion-button {
-  /* text-align: center;
-  justify-content: center; */
-  /* padding: 1.25rem 2rem; */
-  /* background-color: rgba(255, 255, 255, 0.151);
-  backdrop-filter: blur(2px);
-  border-radius: 1px;
-   */
+  text-align: center;
+  justify-content: center;
+  
 }
 
 .accordion-button:not(.collapsed) {
@@ -445,12 +613,12 @@ section#imagen {
 }
 
 .card {
-  /* border-radius: 15px; */
+  
 }
 
 .btn-warning {
-    margin-top: 4rem !important;
- }
+  margin-top: 4rem !important;
+}
 .btn {
   border-radius: 12px;
 }
@@ -487,12 +655,24 @@ iframe {
 }
 
 footer .fa:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 
 footer {
-  transition: transform .2s; /* Animation */
+  background-color: #000;
+  transition: transform 0.2s; /* Animation */
 }
+
+
+
+footer *{
+  color: white;
+}
+
+footer .btn i {
+  color: black;
+}
+
 
 @media (min-width: 576px) {
 
@@ -507,223 +687,17 @@ footer {
 
   .logo-light-mode {
     width: 50%;
+    max-width: 300px;
   }
 
   .logo-dark-mode {
     width: 20%;
+    max-width: 300px;
   }
 
   .img-fluido {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
-  }
-
-  #imagen-tabasco {
-    max-width: 70%;
-    height: auto;
-  }
-
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: rgb(18, 21, 24);
-    color: #fff;
-  }
-
-  section {
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(6px);
-  }
-  a {
-    color: rgb(134, 134, 134);
-  }
-
-  .navbar {
-    background-color: rgba(18, 21, 24, 0.938);
-  }
-
-  .offcanvas {
-    background-color: rgba(18, 21, 24, 0);
-    color: #fff;
-    backdrop-filter: blur(5px);
-  }
-
-  .offcanvas .btn-close {
-    filter: invert(1);
-  }
-
-  .offcanvas .nav-link {
-    color: #fff;
-  }
-
-  .section-img {
-    background-color: rgba(0, 0, 0, 0.171);
-    backdrop-filter: blur(7px);
-  }
-
-  .text-muted {
-    color: rgba(160, 160, 160, 0.9);
-  }
-
-  .card {
-    /* background-color: rgba(26, 30, 34, 0.85); */
-    /* /* border-color: none; */
-    backdrop-filter: blur(5px);
-    border:none; 
-
-  }
-
-  .card-body {
-    /* background-color: rgba(18, 21, 24, 0.938); */
-    /* border-radius: 1rem; */
-    /* border-radius: 10%; */
-
-    /* color: #fff; */
-  }
-
-  .modal-body {
-    background-color: rgba(18, 21, 24, 0.938);
-  }
-
-  .card-img-top {
-    border-radius: 0%;
-  }
-
-  .btn-outline-light {
-    border-color: #fff;
-    color: #fff;
-  }
-
-  .btn-outline-light:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #121518;
-  }
-
-  .contact-form-loader {
-    background: rgba(255, 255, 255, 0.9);
-  }
-
-  /* Ajustes adicionales para el formulario */
-  label {
-    color: rgba(255, 255, 255, 0.9) !important;
-  }
-
-  select option {
-    background-color: rgba(26, 30, 34, 0.95);
-    color: rgba(255, 255, 255, 0.9);
-  }
-
-  .accordion-item {
-    background-color: rgba(26, 30, 34, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    /* margin-bottom: rem; */
-    backdrop-filter: blur(5px);
-  }
-
-  .accordion-button {
-    background-color: rgba(33, 37, 41, 0.6);
-    color: rgba(255, 255, 255, 0.95);
-    /* text-align: center;
-    justify-content: center; */
-    /* padding: 1.25rem 2rem; */
-    backdrop-filter: blur(5px);
-  }
-
-  .accordion-button:not(.collapsed) {
-    background-color: rgba(33, 37, 41, 0.75);
-    color: rgba(255, 255, 255, 0.95);
-  }
-
-  .accordion-button:hover {
-    background-color: rgba(33, 37, 41, 0.8);
-  }
-
-  .accordion-body {
-    background-color: rgba(26, 30, 34, 0.4);
-    color: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(5px);
-  }
-
-  .logo-light-mode {
-    display: none !important;
-  }
-
-  .logo-dark-mode {
-    filter: invert(1);
-    display: block !important;
-  }
-
-  body::before {
-    opacity: 0.1;
-    filter: blur(2px) brightness(0.7) contrast(1.1);
-  }
-
-  .flash-notification {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #121518;
-  }
-
-  .accordion-item {
-    /* background-color: rgba(26, 30, 34, 0);
-    border: 1px solid rgba(255, 255, 255, 0); */
-    margin-bottom: 1rem;
-    backdrop-filter: blur(2px);
-    border-radius: 1rem;
-
-  }
-
-  .accordion-button {
-    background-color: rgba(0, 0, 0, 0.465);
-    color: rgba(255, 255, 255, 0.89);
-    /* text-align: left;
-    justify-content: center; */
-    /* padding: 1.25rem 2rem; */
-    backdrop-filter: blur(2px);
-    border-radius: 1rem;
-
-  }
-
-  .card {
-    /* background-color: #fff; */
-  }
-  /* .accordion-button-valores {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.838);
-    color: rgba(0, 0, 0, 0.89);
-    text-align: center;
-    justify-content: center;
-    padding: 1.2rem 2rem;
-    backdrop-filter: blur(2px);
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-  }
-
-  .accordion-button:not(.collapsed) {
-    background-color: rgba(33, 37, 41, 0.75);
-    color: rgba(255, 255, 255, 0.95);
-  }
-
-  .accordion-button:hover {
-    background-color: rgba(33, 37, 41, 0.432);
-  }
-
-  .accordion-body {
-    background-color: rgba(26, 30, 34, 0.4);
-    color: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(5px);
-  } */
-
-
-}
-
-@media (prefers-color-scheme: light) {
-  .toast {
-    background-color: rgba(0, 0, 0, 0.9) !important;
-    color: white !important;
   }
 }
 
@@ -754,3 +728,30 @@ footer {
     transform: rotate(1turn);
   }
 }
+
+#carousel-section{
+    transition: background-color 0.3s ease;
+}
+
+#imageCarousel {
+  max-width: 90%; /* Adjust as needed */
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+#imageCarousel .carousel-item img {
+  width: 100%;
+  height: 500px; /* Fixed height for carousel images */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+@media (min-width: 576px) {
+  #imageCarousel {
+    max-width: 70%;
+  }
+    #imageCarousel .carousel-item img {
+    height: 700px; /* Fixed height for carousel images */
+  }
+}
+

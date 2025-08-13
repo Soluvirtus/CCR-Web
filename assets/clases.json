@@ -1,0 +1,1544 @@
+[
+    {
+      "id": "introduccion",
+      "title": "Bienvenidos a Fundamentos de la Fe",
+      "content": "Este curso está diseñado especialmente para nuevos creyentes que desean profundizar en su comprensión de las enseñanzas bíblicas y fortalecer su relación con Dios. Cubriendo una amplia gama de temas, desde la naturaleza de Dios hasta el papel del creyente en la Iglesia, Fundamentos de la Fe es el estudio ideal para discipular a nuevos seguidores de Cristo y para aquellos que buscan reafirmar los principios básicos de su fe.\n\nÚnete a nosotros en este viaje espiritual y descubre el verdadero significado de ser un discípulo de Jesucristo.\n\nCada lección incluye:\n\n- Una enseñanza en audio\n- Transcripción del mensaje\n- Referencias bíblicas clave\n\nTe animamos a:\n\n- Escuchar cada lección atentamente\n- Leer los pasajes bíblicos mencionados\n- Reflexionar sobre el contenido\n- Compartir lo aprendido con otros",
+      "spotifyLink": null,
+      "references": [],
+      "transcriptKey": null,
+      "shareLinks": {}
+    },
+    {
+      "lessonNumber": 1,
+      "title": "Nuestra Biblia Inspirada por Dios",
+      "spotifyLink": "https://open.spotify.com/embed/episode/1pUBKQcM084WqPcVurRfVX?utm_source=generator",
+      "transcriptKey": "leccion1",
+      "references": [
+        {
+          "text": "2 Timoteo 3:16-17",
+          "link": "https://www.bible.com/es/bible/128/2TI.3.16-17.nvi"
+        },
+        {
+          "text": "Hebreos 1:1-2",
+          "link": "https://www.bible.com/es/bible/128/HEB.1.1-2.nvi"
+        },
+        {
+          "text": "2 Pedro 1:20-21",
+          "link": "https://www.bible.com/es/bible/compare/2PE.1.20-21"
+        },
+        {
+          "text": "Santiago 4:5",
+          "link": "https://www.bible.com/es/bible/128/JAS.4.5.nvi"
+        },
+        {
+          "text": "Romanos 8",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.nvi"
+        },
+        {
+          "text": "Números 11:31",
+          "link": "https://www.bible.com/es/bible/128/NUM.11.31.nvi"
+        },
+        {
+          "text": "Hechos 22:14",
+          "link": "https://www.bible.com/es/bible/128/ACT.22.14.nvi"
+        },
+        {
+          "text": "Gálatas 3:8",
+          "link": "https://www.bible.com/es/bible/128/GAL.3.8.nvi"
+        },
+        {
+          "text": "Salmo 2:7",
+          "link": "https://www.bible.com/es/bible/128/PSA.2.7.nvi"
+        },
+        {
+          "text": "Ezequiel 12:16",
+          "link": "https://www.bible.com/es/bible/128/EZK.12.16.nvi"
+        },
+        {
+          "text": "Jeremías 1:4-9",
+          "link": "https://www.bible.com/es/bible/128/JER.1.4-9.nvi"
+        },
+        {
+          "text": "Romanos 3:2",
+          "link": "https://www.bible.com/es/bible/128/ROM.3.2.nvi"
+        },
+        {
+          "text": "Hechos 13:32",
+          "link": "https://www.bible.com/es/bible/128/ACT.13.32.nvi"
+        },
+        {
+          "text": "Romanos 9:17",
+          "link": "https://www.bible.com/es/bible/128/ROM.9.17.nvi"
+        },
+        {
+          "text": "Colosenses 2:6",
+          "link": "https://www.bible.com/es/bible/128/COL.2.6.nvi"
+        },
+        {
+          "text": "Jeremías 15:16",
+          "link": "https://www.bible.com/es/bible/128/JER.15.16.nvi"
+        },
+        {
+          "text": "Hechos 20:32",
+          "link": "https://www.bible.com/es/bible/128/ACT.20.32.nvi"
+        },
+        {
+          "text": "1 Pedro 1:10-11",
+          "link": "https://www.bible.com/es/bible/128/1PE.1.10-11.nvi"
+        },
+        {
+          "text": "Mateo 24:35",
+          "link": "https://www.bible.com/es/bible/128/MAT.24.35.nvi"
+        },
+        {
+          "text": "Josué 10:12",
+          "link": "https://www.bible.com/es/bible/128/JOS.10.12.nvi"
+        },
+        {
+          "text": "Ezequiel 28",
+          "link": "https://www.bible.com/es/bible/128/EZK.28.nvi"
+        },
+        {
+          "text": "Ezequiel 26",
+          "link": "https://www.bible.com/es/bible/128/EZK.26.nvi"
+        },
+        {
+          "text": "1 Crónicas 22",
+          "link": "https://www.bible.com/es/bible/128/1CH.22.nvi"
+        },
+        {
+          "text": "Isaías 13",
+          "link": "https://www.bible.com/es/bible/128/ISA.13.nvi"
+        },
+        {
+          "text": "Ezequiel 30",
+          "link": "https://www.bible.com/es/bible/128/EZK.30.nvi"
+        },
+        {
+          "text": "Oseas 13",
+          "link": "https://www.bible.com/es/bible/128/HOS.13.nvi"
+        },
+        {
+          "text": "Salmo 119:97",
+          "link": "https://www.bible.com/es/bible/128/PSA.119.97.nvi"
+        },
+        {
+          "text": "2 Timoteo 4:2",
+          "link": "https://www.bible.com/es/bible/128/2TI.4.2.nvi"
+        },
+        {
+          "text": "Judas 1:3",
+          "link": "https://www.bible.com/es/bible/128/JUD.1.3.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos",
+        "twitter": "http://twitter.com/share?text=Fundamentos de la Fe url=https://ccroma.mx/fundamentos",
+        "whatsapp": "https://api.whatsapp.com/send?text=Fundamentos de la Fe https://ccroma.mx/fundamentos"
+      }
+    },
+    {
+      "lessonNumber": 2,
+      "title": "Cómo Estudiar las Escrituras",
+      "spotifyLink": "https://open.spotify.com/embed/episode/5WiueUNgWhWPZzQPBe1yBG?utm_source=generator",
+      "transcriptKey": "leccion2",
+      "references": [
+        {
+          "text": "1 Pedro 2:2",
+          "link": "https://www.bible.com/es/bible/128/1PE.2.2.nvi"
+        },
+        {
+          "text": "1 Corintios 3:1",
+          "link": "https://www.bible.com/es/bible/128/1CO.3.1.nvi"
+        },
+        {
+          "text": "Juan 8:31",
+          "link": "https://www.bible.com/es/bible/128/JHN.8.31.nvi"
+        },
+        {
+          "text": "1 Corintios 4:14-21",
+          "link": "https://www.bible.com/es/bible/128/1CO.4.14-21.nvi"
+        },
+        {
+          "text": "Colosenses 2:6",
+          "link": "https://www.bible.com/es/bible/128/COL.2.6.nvi"
+        },
+        {
+          "text": "Jeremías 15:16",
+          "link": "https://www.bible.com/es/bible/128/JER.15.16.nvi"
+        },
+        {
+          "text": "Hechos 20:32",
+          "link": "https://www.bible.com/es/bible/128/ACT.20.32.nvi"
+        },
+        {
+          "text": "Salmos 119:11",
+          "link": "https://www.bible.com/es/bible/128/PSA.119.11.nvi"
+        },
+        {
+          "text": "Salmos 119:9",
+          "link": "https://www.bible.com/es/bible/128/PSA.119.9.nvi"
+        },
+        {
+          "text": "1 Juan 2:14",
+          "link": "https://www.bible.com/es/bible/128/1JN.2.14.nvi"
+        },
+        {
+          "text": "1 Timoteo 4:6",
+          "link": "https://www.bible.com/es/bible/128/1TI.4.6.nvi"
+        },
+        {
+          "text": "Salmo 1:1",
+          "link": "https://www.bible.com/es/bible/128/PSA.1.1.nvi"
+        },
+        {
+          "text": "Josué 1:8-9",
+          "link": "https://www.bible.com/es/bible/128/JOS.1.8-9.nvi"
+        },
+        {
+          "text": "2 Timoteo 2:2",
+          "link": "https://www.bible.com/es/bible/128/2TI.2.2.nvi"
+        },
+        {
+          "text": "1 Pedro 3:15",
+          "link": "https://www.bible.com/es/bible/128/1PE.3.15.nvi"
+        },
+        {
+          "text": "1 Pedro 2:1",
+          "link": "https://www.bible.com/es/bible/128/1PE.2.1.nvi"
+        },
+        {
+          "text": "Santiago 1:21",
+          "link": "https://www.bible.com/es/bible/128/JAS.1.21.nvi"
+        },
+        {
+          "text": "Apocalipsis 1:3",
+          "link": "https://www.bible.com/es/bible/128/REV.1.3.nvi"
+        },
+        {
+          "text": "Romanos 12:1",
+          "link": "https://www.bible.com/es/bible/128/ROM.12.1.nvi"
+        },
+        {
+          "text": "1 Juan 2:15",
+          "link": "https://www.bible.com/es/bible/128/1JN.2.15.nvi"
+        },
+        {
+          "text": "Juan 8:31",
+          "link": "https://www.bible.com/es/bible/128/JHN.8.31.nvi"
+        },
+        {
+          "text": "1 Corintios 4:14-21",
+          "link": "https://www.bible.com/es/bible/128/1CO.4.14-21.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 3,
+      "title": "Dios: Su Carácter y Atributos",
+      "spotifyLink": "https://open.spotify.com/embed/episode/4cMzlVkRaUJNYsDRYBTVpC?utm_source=generator",
+      "transcriptKey": "leccion3",
+      "references": [
+        {
+          "text": "Proverbios 9:10",
+          "link": "https://www.bible.com/es/bible/128/PRO.9.10.nvi"
+        },
+        {
+          "text": "Juan 17:3",
+          "link": "https://www.bible.com/es/bible/128/JHN.17.3.nvi"
+        },
+        {
+          "text": "Salmo 147:5",
+          "link": "https://www.bible.com/es/bible/128/PSA.147.5.nvi"
+        },
+        {
+          "text": "1 Timoteo 1:17",
+          "link": "https://www.bible.com/es/bible/128/1TI.1.17.nvi"
+        },
+        {
+          "text": "Judas 25",
+          "link": "https://www.bible.com/es/bible/128/JUD.1.25.nvi"
+        },
+        {
+          "text": "Romanos 16:27",
+          "link": "https://www.bible.com/es/bible/128/ROM.16.27.nvi"
+        },
+        {
+          "text": "Ezequiel 6:7-13",
+          "link": "https://www.bible.com/es/bible/128/EZK.6.7-13.nvi"
+        },
+        {
+          "text": "Ezequiel 7:4",
+          "link": "https://www.bible.com/es/bible/128/EZK.7.4.nvi"
+        },
+        {
+          "text": "2 Corintios 5:10",
+          "link": "https://www.bible.com/es/bible/128/2CO.5.10.nvi"
+        },
+        {
+          "text": "1 Corintios 4:5",
+          "link": "https://www.bible.com/es/bible/128/1CO.4.5.nvi"
+        },
+        {
+          "text": "Éxodo 15:11",
+          "link": "https://www.bible.com/es/bible/128/EXO.15.11.nvi"
+        },
+        {
+          "text": "Salmos 11:9",
+          "link": "https://www.bible.com/es/bible/128/PSA.11.9.nvi"
+        },
+        {
+          "text": "Job 6:10",
+          "link": "https://www.bible.com/es/bible/128/JOB.6.10.nvi"
+        },
+        {
+          "text": "Isaías 6:3",
+          "link": "https://www.bible.com/es/bible/128/ISA.6.3.nvi"
+        },
+        {
+          "text": "Apocalipsis 4:8",
+          "link": "https://www.bible.com/es/bible/128/REV.4.8.nvi"
+        },
+        {
+          "text": "1 Pedro 1:15-16",
+          "link": "https://www.bible.com/es/bible/128/1PE.1.15-16.nvi"
+        },
+        {
+          "text": "2 Timoteo 2:19",
+          "link": "https://www.bible.com/es/bible/128/2TI.2.19.nvi"
+        },
+        {
+          "text": "1 Crónicas 28:9",
+          "link": "https://www.bible.com/es/bible/128/1CH.28.9.nvi"
+        },
+        {
+          "text": "2 Tesalonicenses 1:8",
+          "link": "https://www.bible.com/es/bible/128/2TH.1.8.nvi"
+        },
+        {
+          "text": "Oseas 6:6",
+          "link": "https://www.bible.com/es/bible/128/HOS.6.6.nvi"
+        },
+        {
+          "text": "Ezequiel 48:35",
+          "link": "https://www.bible.com/es/bible/128/EZK.48.35.nvi"
+        },
+        {
+          "text": "Proverbios 2:3",
+          "link": "https://www.bible.com/es/bible/128/PRO.2.3.nvi"
+        },
+        {
+          "text": "Isaías 40:13",
+          "link": "https://www.bible.com/es/bible/128/ISA.40.13.nvi"
+        },
+        {
+          "text": "Romanos 11:34",
+          "link": "https://www.bible.com/es/bible/128/ROM.11.34.nvi"
+        },
+        {
+          "text": "Isaías 48:8",
+          "link": "https://www.bible.com/es/bible/128/ISA.48.8.nvi"
+        },
+        {
+          "text": "Apocalipsis 2:23",
+          "link": "https://www.bible.com/es/bible/128/REV.2.23.nvi"
+        },
+        {
+          "text": "Salmo 139:12",
+          "link": "https://www.bible.com/es/bible/128/PSA.139.12.nvi"
+        },
+        {
+          "text": "Isaías 66:18",
+          "link": "https://www.bible.com/es/bible/128/ISA.66.18.nvi"
+        },
+        {
+          "text": "Juan 2",
+          "link": "https://www.bible.com/es/bible/128/JHN.2.nvi"
+        },
+        {
+          "text": "Deuteronomio 32:4",
+          "link": "https://www.bible.com/es/bible/128/DEU.32.4.nvi"
+        },
+        {
+          "text": "Oseas 13:12",
+          "link": "https://www.bible.com/es/bible/128/HOS.13.12.nvi"
+        },
+        {
+          "text": "Romanos 2:5-6",
+          "link": "https://www.bible.com/es/bible/128/ROM.2.5-6.nvi"
+        },
+        {
+          "text": "Salmo 104:24",
+          "link": "https://www.bible.com/es/bible/128/PSA.104.24.nvi"
+        },
+        {
+          "text": "Efesios 1:11",
+          "link": "https://www.bible.com/es/bible/128/EPH.1.11.nvi"
+        },
+        {
+          "text": "1 Corintios 1",
+          "link": "https://www.bible.com/es/bible/128/1CO.1.nvi"
+        },
+        {
+          "text": "Malaquías 3:16",
+          "link": "https://www.bible.com/es/bible/128/MAL.3.16.nvi"
+        },
+        {
+          "text": "Salmo 56:8",
+          "link": "https://www.bible.com/es/bible/128/PSA.56.8.nvi"
+        },
+        {
+          "text": "Mateo 6:25",
+          "link": "https://www.bible.com/es/bible/128/MAT.6.25.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 4,
+      "title": "La Persona de Jesucristo",
+      "spotifyLink": "https://open.spotify.com/embed/episode/3ryPelckmzQ4PL9dlLCzcj?utm_source=generator",
+      "transcriptKey": "leccion4",
+      "references": [
+        {
+          "text": "Colosenses 1:15-19",
+          "link": "https://www.bible.com/es/bible/128/COL.1.15-19.nvi"
+        },
+        {
+          "text": "Hechos 8:35",
+          "link": "https://www.bible.com/es/bible/128/ACT.8.35.nvi"
+        },
+        {
+          "text": "Lucas 24:27",
+          "link": "https://www.bible.com/es/bible/128/LUK.24.27.nvi"
+        },
+        {
+          "text": "Colosenses 1:27",
+          "link": "https://www.bible.com/es/bible/128/COL.1.27.nvi"
+        },
+        {
+          "text": "Colosenses 2:2-9",
+          "link": "https://www.bible.com/es/bible/128/COL.2.2-9.nvi"
+        },
+        {
+          "text": "Colosenses 2:19",
+          "link": "https://www.bible.com/es/bible/128/COL.2.19.nvi"
+        },
+        {
+          "text": "Colosenses 3:1",
+          "link": "https://www.bible.com/es/bible/128/COL.3.1.nvi"
+        },
+        {
+          "text": "Génesis 1:27",
+          "link": "https://www.bible.com/es/bible/128/GEN.1.27.nvi"
+        },
+        {
+          "text": "1 Corintios 11:7",
+          "link": "https://www.bible.com/es/bible/128/1CO.11.7.nvi"
+        },
+        {
+          "text": "Efesios 4:24",
+          "link": "https://www.bible.com/es/bible/128/EPH.4.24.nvi"
+        },
+        {
+          "text": "Hebreos 1:2-7",
+          "link": "https://www.bible.com/es/bible/128/HEB.1.2-7.nvi"
+        },
+        {
+          "text": "Juan 1:1-18",
+          "link": "https://www.bible.com/es/bible/128/JHN.1.1-18.nvi"
+        },
+        {
+          "text": "Filipenses 2:6",
+          "link": "https://www.bible.com/es/bible/128/PHP.2.6.nvi"
+        },
+        {
+          "text": "Juan 14:9",
+          "link": "https://www.bible.com/es/bible/128/JHN.14.9.nvi"
+        },
+        {
+          "text": "Mateo 17:2",
+          "link": "https://www.bible.com/es/bible/128/MAT.17.2.nvi"
+        },
+        {
+          "text": "2 Corintios 4:6",
+          "link": "https://www.bible.com/es/bible/128/2CO.4.6.nvi"
+        },
+        {
+          "text": "Génesis 32:30",
+          "link": "https://www.bible.com/es/bible/128/GEN.32.30.nvi"
+        },
+        {
+          "text": "1 Juan 3:2",
+          "link": "https://www.bible.com/es/bible/128/1JN.3.2.nvi"
+        },
+        {
+          "text": "Efesios 4:13",
+          "link": "https://www.bible.com/es/bible/128/EPH.4.13.nvi"
+        },
+        {
+          "text": "Juan 8:58",
+          "link": "https://www.bible.com/es/bible/128/JHN.8.58.nvi"
+        },
+        {
+          "text": "Apocalipsis 1:8-18",
+          "link": "https://www.bible.com/es/bible/128/REV.1.8-18.nvi"
+        },
+        {
+          "text": "Apocalipsis 22:13",
+          "link": "https://www.bible.com/es/bible/128/REV.22.13.nvi"
+        },
+        {
+          "text": "Salmo 89:27",
+          "link": "https://www.bible.com/es/bible/128/PSA.89.27.nvi"
+        },
+        {
+          "text": "Apocalipsis 5",
+          "link": "https://www.bible.com/es/bible/128/REV.5.nvi"
+        },
+        {
+          "text": "Apocalipsis 6-20",
+          "link": "https://www.bible.com/es/bible/128/REV.6.nvi"
+        },
+        {
+          "text": "2 Corintios 4:4",
+          "link": "https://www.bible.com/es/bible/128/2CO.4.4.nvi"
+        },
+        {
+          "text": "Juan 10:33",
+          "link": "https://www.bible.com/es/bible/128/JHN.10.33.nvi"
+        },
+        {
+          "text": "Mateo 28:18",
+          "link": "https://www.bible.com/es/bible/128/MAT.28.18.nvi"
+        },
+        {
+          "text": "2 Pedro 3:10",
+          "link": "https://www.bible.com/es/bible/128/2PE.3.10.nvi"
+        },
+        {
+          "text": "Filipenses 2",
+          "link": "https://www.bible.com/es/bible/128/PHP.2.nvi"
+        },
+        {
+          "text": "Efesios 1:20-23",
+          "link": "https://www.bible.com/es/bible/128/EPH.1.20-23.nvi"
+        },
+        {
+          "text": "1 Pedro 3:22",
+          "link": "https://www.bible.com/es/bible/128/1PE.3.22.nvi"
+        },
+        {
+          "text": "1 Corintios 12",
+          "link": "https://www.bible.com/es/bible/128/1CO.12.nvi"
+        },
+        {
+          "text": "Juan 1:16",
+          "link": "https://www.bible.com/es/bible/128/JHN.1.16.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 5,
+      "title": "La Obra de Cristo",
+      "spotifyLink": "https://open.spotify.com/embed/episode/41rXfuwQdf3e0TQry0xXzK?utm_source=generator",
+      "transcriptKey": "leccion5",
+      "references": [
+        {
+          "text": "1 Pedro 2:21-24",
+          "link": "https://www.bible.com/es/bible/128/1PE.2.21-24.nvi"
+        },
+        {
+          "text": "Isaías 53",
+          "link": "https://www.bible.com/es/bible/128/ISA.53.nvi"
+        },
+        {
+          "text": "Isaías 53:4-11",
+          "link": "https://www.bible.com/es/bible/128/ISA.53.4-11.nvi"
+        },
+        {
+          "text": "Gálatas 3:13",
+          "link": "https://www.bible.com/es/bible/128/GAL.3.13.nvi"
+        },
+        {
+          "text": "Juan 1:29",
+          "link": "https://www.bible.com/es/bible/128/JHN.1.29.nvi"
+        },
+        {
+          "text": "1 Pedro 3:18",
+          "link": "https://www.bible.com/es/bible/128/1PE.3.18.nvi"
+        },
+        {
+          "text": "Romanos 8",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.nvi"
+        },
+        {
+          "text": "Hebreos 9:28",
+          "link": "https://www.bible.com/es/bible/128/HEB.9.28.nvi"
+        },
+        {
+          "text": "Números 14:33",
+          "link": "https://www.bible.com/es/bible/128/NUM.14.33.nvi"
+        },
+        {
+          "text": "Ezequiel 18:20-23",
+          "link": "https://www.bible.com/es/bible/128/EZK.18.20-23.nvi"
+        },
+        {
+          "text": "Números 18:1",
+          "link": "https://www.bible.com/es/bible/128/NUM.18.1.nvi"
+        },
+        {
+          "text": "Ezequiel 4:4",
+          "link": "https://www.bible.com/es/bible/128/EZK.4.4.nvi"
+        },
+        {
+          "text": "Ezequiel 44",
+          "link": "https://www.bible.com/es/bible/128/EZK.44.nvi"
+        },
+        {
+          "text": "Romanos 6",
+          "link": "https://www.bible.com/es/bible/128/ROM.6.nvi"
+        },
+        {
+          "text": "Isaías 53:5",
+          "link": "https://www.bible.com/es/bible/128/ISA.53.5.nvi"
+        },
+        {
+          "text": "Mateo 8:16",
+          "link": "https://www.bible.com/es/bible/128/MAT.8.16.nvi"
+        },
+        {
+          "text": "Isaías 53:6",
+          "link": "https://www.bible.com/es/bible/128/ISA.53.6.nvi"
+        },
+        {
+          "text": "1 Pedro 5:4",
+          "link": "https://www.bible.com/es/bible/128/1PE.5.4.nvi"
+        },
+        {
+          "text": "Ezequiel 34:23-24",
+          "link": "https://www.bible.com/es/bible/128/EZK.34.23-24.nvi"
+        },
+        {
+          "text": "Ezequiel 37:24",
+          "link": "https://www.bible.com/es/bible/128/EZK.37.24.nvi"
+        },
+        {
+          "text": "Juan 10",
+          "link": "https://www.bible.com/es/bible/128/JHN.10.nvi"
+        },
+        {
+          "text": "1 Pedro 1:11",
+          "link": "https://www.bible.com/es/bible/128/1PE.1.11.nvi"
+        },
+        {
+          "text": "Apocalipsis 12:11",
+          "link": "https://www.bible.com/es/bible/128/REV.12.11.nvi"
+        },
+        {
+          "text": "Filipenses 3",
+          "link": "https://www.bible.com/es/bible/128/PHP.3.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 6,
+      "title": "La Salvación",
+      "spotifyLink": "https://open.spotify.com/embed/episode/1Rv4wCvOxYE6SWzzHklV4T?utm_source=generator",
+      "transcriptKey": "leccion6",
+      "references": [
+        {
+          "text": "Efesios 2:1",
+          "link": "https://www.bible.com/es/bible/128/EPH.2.1.nvi"
+        },
+        {
+          "text": "Efesios 2:5-6",
+          "link": "https://www.bible.com/es/bible/128/EPH.2.5-6.nvi"
+        },
+        {
+          "text": "Efesios 4:18",
+          "link": "https://www.bible.com/es/bible/128/EPH.4.18.nvi"
+        },
+        {
+          "text": "Romanos 3:23",
+          "link": "https://www.bible.com/es/bible/128/ROM.3.23.nvi"
+        },
+        {
+          "text": "Juan 3:18",
+          "link": "https://www.bible.com/es/bible/128/JHN.3.18.nvi"
+        },
+        {
+          "text": "Salmo 103:10",
+          "link": "https://www.bible.com/es/bible/128/PSA.103.10.nvi"
+        },
+        {
+          "text": "Romanos 5:8",
+          "link": "https://www.bible.com/es/bible/128/ROM.5.8.nvi"
+        },
+        {
+          "text": "Juan 11:25",
+          "link": "https://www.bible.com/es/bible/128/JHN.11.25.nvi"
+        },
+        {
+          "text": "Romanos 6:4-5",
+          "link": "https://www.bible.com/es/bible/128/ROM.6.4-5.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 7,
+      "title": "La Persona y Ministerio del Espíritu Santo",
+      "spotifyLink": "https://open.spotify.com/embed/episode/5nvgmSHRNqDSAUtcTGuRXL?utm_source=generator",
+      "transcriptKey": "leccion7",
+      "references": [
+        {
+          "text": "Efesios 5:18-21",
+          "link": "https://www.bible.com/es/bible/128/EPH.5.18-21.nvi"
+        },
+        {
+          "text": "Lucas 1:15",
+          "link": "https://www.bible.com/es/bible/128/LUK.1.15.nvi"
+        },
+        {
+          "text": "Hechos 2:4-11",
+          "link": "https://www.bible.com/es/bible/128/ACT.2.4-11.nvi"
+        },
+        {
+          "text": "Romanos 8:7-9",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.7-9.nvi"
+        },
+        {
+          "text": "1 Corintios 3",
+          "link": "https://www.bible.com/es/bible/128/1CO.3.nvi"
+        },
+        {
+          "text": "1 Corintios 12:13",
+          "link": "https://www.bible.com/es/bible/128/1CO.12.13.nvi"
+        },
+        {
+          "text": "1 Corintios 6:19",
+          "link": "https://www.bible.com/es/bible/128/1CO.6.19.nvi"
+        },
+        {
+          "text": "Efesios 4:30",
+          "link": "https://www.bible.com/es/bible/128/EPH.4.30.nvi"
+        },
+        {
+          "text": "1 Tesalonicenses 5:19",
+          "link": "https://www.bible.com/es/bible/128/1TH.5.19.nvi"
+        },
+        {
+          "text": "Gálatas 2:20",
+          "link": "https://www.bible.com/es/bible/128/GAL.2.20.nvi"
+        },
+        {
+          "text": "Juan 7:37-39",
+          "link": "https://www.bible.com/es/bible/128/JHN.7.37-39.nvi"
+        },
+        {
+          "text": "Efesios 1",
+          "link": "https://www.bible.com/es/bible/128/EPH.1.nvi"
+        },
+        {
+          "text": "Juan 16:6",
+          "link": "https://www.bible.com/es/bible/128/JHN.16.6.nvi"
+        },
+        {
+          "text": "Mateo 4:1",
+          "link": "https://www.bible.com/es/bible/128/MAT.4.1.nvi"
+        },
+        {
+          "text": "Lucas 4:1",
+          "link": "https://www.bible.com/es/bible/128/LUK.4.1.nvi"
+        },
+        {
+          "text": "Marcos 1:12",
+          "link": "https://www.bible.com/es/bible/128/MRK.1.12.nvi"
+        },
+        {
+          "text": "Hechos 6:5",
+          "link": "https://www.bible.com/es/bible/128/ACT.6.5.nvi"
+        },
+        {
+          "text": "Hechos 7:55",
+          "link": "https://www.bible.com/es/bible/128/ACT.7.55.nvi"
+        },
+        {
+          "text": "Hechos 9:17",
+          "link": "https://www.bible.com/es/bible/128/ACT.9.17.nvi"
+        },
+        {
+          "text": "Hechos 11:22-24",
+          "link": "https://www.bible.com/es/bible/128/ACT.11.22-24.nvi"
+        },
+        {
+          "text": "Hechos 13:9",
+          "link": "https://www.bible.com/es/bible/128/ACT.13.9.nvi"
+        },
+        {
+          "text": "Hechos 13:52",
+          "link": "https://www.bible.com/es/bible/128/ACT.13.52.nvi"
+        },
+        {
+          "text": "Efesios 5:18-25",
+          "link": "https://www.bible.com/es/bible/128/EPH.5.18-25.nvi"
+        },
+        {
+          "text": "Efesios 6:1-9",
+          "link": "https://www.bible.com/es/bible/128/EPH.6.1-9.nvi"
+        },
+        {
+          "text": "Colosenses 3:16-17",
+          "link": "https://www.bible.com/es/bible/128/COL.3.16-17.nvi"
+        },
+        {
+          "text": "Colosenses 4:1-16",
+          "link": "https://www.bible.com/es/bible/128/COL.4.1-16.nvi"
+        },
+        {
+          "text": "Mateo 16",
+          "link": "https://www.bible.com/es/bible/128/MAT.16.nvi"
+        },
+        {
+          "text": "Hechos 2:4",
+          "link": "https://www.bible.com/es/bible/128/ACT.2.4.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 8,
+      "title": "La Oración y el Creyente",
+      "spotifyLink": "https://open.spotify.com/embed/episode/7bkKNodwRaxfFW01SFL2BS?utm_source=generator",
+      "transcriptKey": "leccion8",
+      "references": [
+        {
+          "text": "1 Tesalonicenses 5:17",
+          "link": "https://www.bible.com/es/bible/128/1TH.5.17.nvi"
+        },
+        {
+          "text": "Lucas 11:1-13",
+          "link": "https://www.bible.com/es/bible/128/LUK.11.1-13.nvi"
+        },
+        {
+          "text": "Lucas 18:1-6",
+          "link": "https://www.bible.com/es/bible/128/LUK.18.1-6.nvi"
+        },
+        {
+          "text": "Mateo 6:7-11",
+          "link": "https://www.bible.com/es/bible/128/MAT.6.7-11.nvi"
+        },
+        {
+          "text": "Mateo 26:38-46",
+          "link": "https://www.bible.com/es/bible/128/MAT.26.38-46.nvi"
+        },
+        {
+          "text": "Hechos 1:14",
+          "link": "https://www.bible.com/es/bible/128/ACT.1.14.nvi"
+        },
+        {
+          "text": "Hechos 12",
+          "link": "https://www.bible.com/es/bible/128/ACT.12.nvi"
+        },
+        {
+          "text": "Efesios 6:18",
+          "link": "https://www.bible.com/es/bible/128/EPH.6.18.nvi"
+        },
+        {
+          "text": "1 Tesalonicenses 3:10",
+          "link": "https://www.bible.com/es/bible/128/1TH.3.10.nvi"
+        },
+        {
+          "text": "Colosenses 4:2",
+          "link": "https://www.bible.com/es/bible/128/COL.4.2.nvi"
+        },
+        {
+          "text": "Daniel 9",
+          "link": "https://www.bible.com/es/bible/128/DAN.9.nvi"
+        },
+        {
+          "text": "Salmo 42:1",
+          "link": "https://www.bible.com/es/bible/128/PSA.42.1.nvi"
+        },
+        {
+          "text": "Salmo 63",
+          "link": "https://www.bible.com/es/bible/128/PSA.63.nvi"
+        },
+        {
+          "text": "Salmo 84:1-2",
+          "link": "https://www.bible.com/es/bible/128/PSA.84.1-2.nvi"
+        },
+        {
+          "text": "Salmo 27",
+          "link": "https://www.bible.com/es/bible/128/PSA.27.nvi"
+        },
+        {
+          "text": "Salmo 20:1",
+          "link": "https://www.bible.com/es/bible/128/PSA.20.1.nvi"
+        },
+        {
+          "text": "Jonás 2:1",
+          "link": "https://www.bible.com/es/bible/128/JON.2.1.nvi"
+        },
+        {
+          "text": "Filipenses 4",
+          "link": "https://www.bible.com/es/bible/128/PHP.4.nvi"
+        },
+        {
+          "text": "Salmo 4",
+          "link": "https://www.bible.com/es/bible/128/PSA.4.nvi"
+        },
+        {
+          "text": "Salmo 44",
+          "link": "https://www.bible.com/es/bible/128/PSA.44.nvi"
+        },
+        {
+          "text": "Salmo 32:3-5",
+          "link": "https://www.bible.com/es/bible/128/PSA.32.3-5.nvi"
+        },
+        {
+          "text": "Romanos 10:1",
+          "link": "https://www.bible.com/es/bible/128/ROM.10.1.nvi"
+        },
+        {
+          "text": "1 Timoteo 2",
+          "link": "https://www.bible.com/es/bible/128/1TI.2.nvi"
+        },
+        {
+          "text": "Efesios 1:15",
+          "link": "https://www.bible.com/es/bible/128/EPH.1.15.nvi"
+        },
+        {
+          "text": "Efesios 3:14",
+          "link": "https://www.bible.com/es/bible/128/EPH.3.14.nvi"
+        },
+        {
+          "text": "Jeremías 13",
+          "link": "https://www.bible.com/es/bible/128/JER.13.nvi"
+        },
+        {
+          "text": "Mateo 23",
+          "link": "https://www.bible.com/es/bible/128/MAT.23.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 9,
+      "title": "La Iglesia - La Comunión y la Adoración",
+      "spotifyLink": "https://open.spotify.com/embed/episode/0xtdKVxEjMnpPHFwqEXeYh?utm_source=generator",
+      "transcriptKey": "leccion9",
+      "references": [
+        {
+          "text": "1 Corintios 12",
+          "link": "https://www.bible.com/es/bible/128/1CO.12.nvi"
+        },
+        {
+          "text": "Oseas 1",
+          "link": "https://www.bible.com/es/bible/128/HOS.1.nvi"
+        },
+        {
+          "text": "Isaías 51",
+          "link": "https://www.bible.com/es/bible/128/ISA.51.nvi"
+        },
+        {
+          "text": "Marcos 12",
+          "link": "https://www.bible.com/es/bible/128/MRK.12.nvi"
+        },
+        {
+          "text": "Juan 15",
+          "link": "https://www.bible.com/es/bible/128/JHN.15.nvi"
+        },
+        {
+          "text": "Juan 10",
+          "link": "https://www.bible.com/es/bible/128/JHN.10.nvi"
+        },
+        {
+          "text": "Colosenses 1:13",
+          "link": "https://www.bible.com/es/bible/128/COL.1.13.nvi"
+        },
+        {
+          "text": "Romanos 14:17",
+          "link": "https://www.bible.com/es/bible/128/ROM.14.17.nvi"
+        },
+        {
+          "text": "Romanos 8",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.nvi"
+        },
+        {
+          "text": "Hebreos 2",
+          "link": "https://www.bible.com/es/bible/128/HEB.2.nvi"
+        },
+        {
+          "text": "Efesios 5:23",
+          "link": "https://www.bible.com/es/bible/128/EPH.5.23.nvi"
+        },
+        {
+          "text": "Colosenses 1:18",
+          "link": "https://www.bible.com/es/bible/128/COL.1.18.nvi"
+        },
+        {
+          "text": "Romanos 8:9",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.9.nvi"
+        },
+        {
+          "text": "Efesios 4:3-4",
+          "link": "https://www.bible.com/es/bible/128/EPH.4.3-4.nvi"
+        },
+        {
+          "text": "1 Corintios 1:12-13",
+          "link": "https://www.bible.com/es/bible/128/1CO.1.12-13.nvi"
+        },
+        {
+          "text": "1 Corintios 3:21",
+          "link": "https://www.bible.com/es/bible/128/1CO.3.21.nvi"
+        },
+        {
+          "text": "Efesios 2:12",
+          "link": "https://www.bible.com/es/bible/128/EPH.2.12.nvi"
+        },
+        {
+          "text": "Gálatas 3:28",
+          "link": "https://www.bible.com/es/bible/128/GAL.3.28.nvi"
+        },
+        {
+          "text": "Romanos 10:12-13",
+          "link": "https://www.bible.com/es/bible/128/ROM.10.12-13.nvi"
+        },
+        {
+          "text": "Juan 17:20-21",
+          "link": "https://www.bible.com/es/bible/128/JHN.17.20-21.nvi"
+        },
+        {
+          "text": "Filipenses 2:2",
+          "link": "https://www.bible.com/es/bible/128/PHP.2.2.nvi"
+        },
+        {
+          "text": "Filipenses 2:5-6",
+          "link": "https://www.bible.com/es/bible/128/PHP.2.5-6.nvi"
+        },
+        {
+          "text": "Romanos 12:3",
+          "link": "https://www.bible.com/es/bible/128/ROM.12.3.nvi"
+        },
+        {
+          "text": "1 Corintios 6:7-8",
+          "link": "https://www.bible.com/es/bible/128/1CO.6.7-8.nvi"
+        },
+        {
+          "text": "Juan 13:34",
+          "link": "https://www.bible.com/es/bible/128/JHN.13.34.nvi"
+        },
+        {
+          "text": "Romanos 5:5",
+          "link": "https://www.bible.com/es/bible/128/ROM.5.5.nvi"
+        },
+        {
+          "text": "Efesios 4:11-12",
+          "link": "https://www.bible.com/es/bible/128/EPH.4.11-12.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 10,
+      "title": "Los Dones Espirituales",
+      "spotifyLink": "https://open.spotify.com/embed/episode/3HJGzXWfXOdOtySsrnpBV2?utm_source=generator",
+      "transcriptKey": "leccion10",
+      "references": [
+        {
+          "text": "1 Corintios 12",
+          "link": "https://www.bible.com/es/bible/128/1CO.12.nvi"
+        },
+        {
+          "text": "Romanos 12",
+          "link": "https://www.bible.com/es/bible/128/ROM.12.nvi"
+        },
+        {
+          "text": "Marcos 16:14-16",
+          "link": "https://www.bible.com/es/bible/128/MRK.16.14-16.nvi"
+        },
+        {
+          "text": "2 Corintios 12:12",
+          "link": "https://www.bible.com/es/bible/128/2CO.12.12.nvi"
+        },
+        {
+          "text": "Hebreos 2:3-4",
+          "link": "https://www.bible.com/es/bible/128/HEB.2.3-4.nvi"
+        },
+        {
+          "text": "Efesios 2:20",
+          "link": "https://www.bible.com/es/bible/128/EPH.2.20.nvi"
+        },
+        {
+          "text": "Hechos 14:3",
+          "link": "https://www.bible.com/es/bible/128/ACT.14.3.nvi"
+        },
+        {
+          "text": "Lucas 16:31",
+          "link": "https://www.bible.com/es/bible/128/LUK.16.31.nvi"
+        },
+        {
+          "text": "Santiago 5:13-14",
+          "link": "https://www.bible.com/es/bible/128/JAS.5.13-14.nvi"
+        },
+        {
+          "text": "2 Timoteo 4",
+          "link": "https://www.bible.com/es/bible/128/2TI.4.nvi"
+        },
+        {
+          "text": "Mateo 7",
+          "link": "https://www.bible.com/es/bible/128/MAT.7.nvi"
+        },
+        {
+          "text": "Hechos 8",
+          "link": "https://www.bible.com/es/bible/128/ACT.8.nvi"
+        },
+        {
+          "text": "Hechos 13",
+          "link": "https://www.bible.com/es/bible/128/ACT.13.nvi"
+        },
+        {
+          "text": "Hechos 2",
+          "link": "https://www.bible.com/es/bible/128/ACT.2.nvi"
+        },
+        {
+          "text": "Hechos 10",
+          "link": "https://www.bible.com/es/bible/128/ACT.10.nvi"
+        },
+        {
+          "text": "Isaías 28:11",
+          "link": "https://www.bible.com/es/bible/128/ISA.28.11.nvi"
+        },
+        {
+          "text": "Hechos 18",
+          "link": "https://www.bible.com/es/bible/128/ACT.18.nvi"
+        },
+        {
+          "text": "1 Corintios 14:1-7",
+          "link": "https://www.bible.com/es/bible/128/1CO.14.1-7.nvi"
+        },
+        {
+          "text": "1 Corintios 14:22-28",
+          "link": "https://www.bible.com/es/bible/128/1CO.14.22-28.nvi"
+        },
+        {
+          "text": "1 Corintios 14:34",
+          "link": "https://www.bible.com/es/bible/128/1CO.14.34.nvi"
+        },
+        {
+          "text": "1 Corintios 13:8-13",
+          "link": "https://www.bible.com/es/bible/128/1CO.13.8-13.nvi"
+        },
+        {
+          "text": "Isaías 8:19-20",
+          "link": "https://www.bible.com/es/bible/128/ISA.8.19-20.nvi"
+        },
+        {
+          "text": "2 Pedro 1:3",
+          "link": "https://www.bible.com/es/bible/128/2PE.1.3.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 11,
+      "title": "El Evangelismo y el Creyente",
+      "spotifyLink": "https://open.spotify.com/embed/episode/4WhrYnFrWhpHVm3PaH9Msw?utm_source=generator",
+      "transcriptKey": "leccion11",
+      "references": [
+        {
+          "text": "1 Juan 4",
+          "link": "https://www.bible.com/es/bible/128/1JN.4.nvi"
+        },
+        {
+          "text": "Juan 3:16",
+          "link": "https://www.bible.com/es/bible/128/JHN.3.16.nvi"
+        },
+        {
+          "text": "Lucas 19:10",
+          "link": "https://www.bible.com/es/bible/128/LUK.19.10.nvi"
+        },
+        {
+          "text": "Juan 16",
+          "link": "https://www.bible.com/es/bible/128/JHN.16.nvi"
+        },
+        {
+          "text": "Hechos 1",
+          "link": "https://www.bible.com/es/bible/128/ACT.1.nvi"
+        },
+        {
+          "text": "Romanos 1",
+          "link": "https://www.bible.com/es/bible/128/ROM.1.nvi"
+        },
+        {
+          "text": "Romanos 9",
+          "link": "https://www.bible.com/es/bible/128/ROM.9.nvi"
+        },
+        {
+          "text": "Romanos 10:1",
+          "link": "https://www.bible.com/es/bible/128/ROM.10.1.nvi"
+        },
+        {
+          "text": "1 Corintios 9:22",
+          "link": "https://www.bible.com/es/bible/128/1CO.9.22.nvi"
+        },
+        {
+          "text": "Proverbios 11:30",
+          "link": "https://www.bible.com/es/bible/128/PRO.11.30.nvi"
+        },
+        {
+          "text": "Daniel 12:3",
+          "link": "https://www.bible.com/es/bible/128/DAN.12.3.nvi"
+        },
+        {
+          "text": "Mateo 28",
+          "link": "https://www.bible.com/es/bible/128/MAT.28.nvi"
+        },
+        {
+          "text": "Juan 15",
+          "link": "https://www.bible.com/es/bible/128/JHN.15.nvi"
+        },
+        {
+          "text": "Juan 16",
+          "link": "https://www.bible.com/es/bible/128/JHN.16.nvi"
+        },
+        {
+          "text": "Mateo 4:18-22",
+          "link": "https://www.bible.com/es/bible/128/MAT.4.18-22.nvi"
+        },
+        {
+          "text": "Isaías 49",
+          "link": "https://www.bible.com/es/bible/128/ISA.49.nvi"
+        },
+        {
+          "text": "Juan 15:16",
+          "link": "https://www.bible.com/es/bible/128/JHN.15.16.nvi"
+        },
+        {
+          "text": "Juan 6:70",
+          "link": "https://www.bible.com/es/bible/128/JHN.6.70.nvi"
+        },
+        {
+          "text": "Juan 13:18",
+          "link": "https://www.bible.com/es/bible/128/JHN.13.18.nvi"
+        },
+        {
+          "text": "Lucas 6:13",
+          "link": "https://www.bible.com/es/bible/128/LUK.6.13.nvi"
+        },
+        {
+          "text": "Lucas 24:46-48",
+          "link": "https://www.bible.com/es/bible/128/LUK.24.46-48.nvi"
+        },
+        {
+          "text": "Hechos 1:8",
+          "link": "https://www.bible.com/es/bible/128/ACT.1.8.nvi"
+        },
+        {
+          "text": "2 Corintios 5:20",
+          "link": "https://www.bible.com/es/bible/128/2CO.5.20.nvi"
+        },
+        {
+          "text": "1 Pedro 2:9",
+          "link": "https://www.bible.com/es/bible/128/1PE.2.9.nvi"
+        },
+        {
+          "text": "Mateo 13",
+          "link": "https://www.bible.com/es/bible/128/MAT.13.nvi"
+        },
+        {
+          "text": "Mateo 14:15",
+          "link": "https://www.bible.com/es/bible/128/MAT.14.15.nvi"
+        },
+        {
+          "text": "Hechos 4",
+          "link": "https://www.bible.com/es/bible/128/ACT.4.nvi"
+        },
+        {
+          "text": "Juan 1",
+          "link": "https://www.bible.com/es/bible/128/JHN.1.nvi"
+        },
+        {
+          "text": "Lucas 5",
+          "link": "https://www.bible.com/es/bible/128/LUK.5.nvi"
+        },
+        {
+          "text": "Marcos 3",
+          "link": "https://www.bible.com/es/bible/128/MRK.3.nvi"
+        },
+        {
+          "text": "Mateo 10",
+          "link": "https://www.bible.com/es/bible/128/MAT.10.nvi"
+        },
+        {
+          "text": "Marcos 5",
+          "link": "https://www.bible.com/es/bible/128/MRK.5.nvi"
+        },
+        {
+          "text": "Juan 8",
+          "link": "https://www.bible.com/es/bible/128/JHN.8.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 12,
+      "title": "La Obediencia",
+      "spotifyLink": "https://open.spotify.com/embed/episode/3uYsdxCE6jCUHzfRChoTUg?utm_source=generator",
+      "transcriptKey": "leccion12",
+      "references": [
+        {
+          "text": "Deuteronomio 6:5",
+          "link": "https://www.bible.com/es/bible/128/DEU.6.5.nvi"
+        },
+        {
+          "text": "Deuteronomio 10:12",
+          "link": "https://www.bible.com/es/bible/128/DEU.10.12.nvi"
+        },
+        {
+          "text": "Deuteronomio 11:1",
+          "link": "https://www.bible.com/es/bible/128/DEU.11.1.nvi"
+        },
+        {
+          "text": "Salmo 18:1",
+          "link": "https://www.bible.com/es/bible/128/PSA.18.1.nvi"
+        },
+        {
+          "text": "Proverbios 8:17",
+          "link": "https://www.bible.com/es/bible/128/PRO.8.17.nvi"
+        },
+        {
+          "text": "1 Pedro 1:8",
+          "link": "https://www.bible.com/es/bible/128/1PE.1.8.nvi"
+        },
+        {
+          "text": "Efesios 6:24",
+          "link": "https://www.bible.com/es/bible/128/EPH.6.24.nvi"
+        },
+        {
+          "text": "Mateo 10",
+          "link": "https://www.bible.com/es/bible/128/MAT.10.nvi"
+        },
+        {
+          "text": "1 Corintios 16:22",
+          "link": "https://www.bible.com/es/bible/128/1CO.16.22.nvi"
+        },
+        {
+          "text": "1 Juan 4:19",
+          "link": "https://www.bible.com/es/bible/128/1JN.4.19.nvi"
+        },
+        {
+          "text": "1 Juan 3:18",
+          "link": "https://www.bible.com/es/bible/128/1JN.3.18.nvi"
+        },
+        {
+          "text": "Mateo 26:33-35",
+          "link": "https://www.bible.com/es/bible/128/MAT.26.33-35.nvi"
+        },
+        {
+          "text": "Mateo 28",
+          "link": "https://www.bible.com/es/bible/128/MAT.28.nvi"
+        },
+        {
+          "text": "Juan 21:3-5",
+          "link": "https://www.bible.com/es/bible/128/JHN.21.3-5.nvi"
+        },
+        {
+          "text": "Juan 14:21",
+          "link": "https://www.bible.com/es/bible/128/JHN.14.21.nvi"
+        },
+        {
+          "text": "Juan 21:15-19",
+          "link": "https://www.bible.com/es/bible/128/JHN.21.15-19.nvi"
+        },
+        {
+          "text": "Jeremías 31:3",
+          "link": "https://www.bible.com/es/bible/128/JER.31.3.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    },
+    {
+      "lessonNumber": 13,
+      "title": "La Voluntad y la Dirección de Dios",
+      "spotifyLink": "https://open.spotify.com/embed/episode/0eK4ugMDNvm7RbNpccRRzU?utm_source=generator",
+      "transcriptKey": "leccion13",
+      "references": [
+        {
+          "text": "Mateo 6:9",
+          "link": "https://www.bible.com/es/bible/128/MAT.6.9.nvi"
+        },
+        {
+          "text": "Efesios 6:6",
+          "link": "https://www.bible.com/es/bible/128/EPH.6.6.nvi"
+        },
+        {
+          "text": "Romanos 1:10-15",
+          "link": "https://www.bible.com/es/bible/128/ROM.1.10-15.nvi"
+        },
+        {
+          "text": "Colosenses 4:12",
+          "link": "https://www.bible.com/es/bible/128/COL.4.12.nvi"
+        },
+        {
+          "text": "1 Pedro 4",
+          "link": "https://www.bible.com/es/bible/128/1PE.4.nvi"
+        },
+        {
+          "text": "Jeremías 51:29",
+          "link": "https://www.bible.com/es/bible/128/JER.51.29.nvi"
+        },
+        {
+          "text": "Romanos 8:28",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.28.nvi"
+        },
+        {
+          "text": "Efesios 1:9-11",
+          "link": "https://www.bible.com/es/bible/128/EPH.1.9-11.nvi"
+        },
+        {
+          "text": "Lucas 13:34",
+          "link": "https://www.bible.com/es/bible/128/LUK.13.34.nvi"
+        },
+        {
+          "text": "Juan 16:6",
+          "link": "https://www.bible.com/es/bible/128/JHN.16.6.nvi"
+        },
+        {
+          "text": "Lucas 5:26",
+          "link": "https://www.bible.com/es/bible/128/LUK.5.26.nvi"
+        },
+        {
+          "text": "Romanos 8:9",
+          "link": "https://www.bible.com/es/bible/128/ROM.8.9.nvi"
+        },
+        {
+          "text": "1 Corintios 6:19",
+          "link": "https://www.bible.com/es/bible/128/1CO.6.19.nvi"
+        },
+        {
+          "text": "1 Corintios 12:13",
+          "link": "https://www.bible.com/es/bible/128/1CO.12.13.nvi"
+        },
+        {
+          "text": "2 Pedro 3:7-10",
+          "link": "https://www.bible.com/es/bible/128/2PE.3.7-10.nvi"
+        },
+        {
+          "text": "1 Timoteo 2:4",
+          "link": "https://www.bible.com/es/bible/128/1TI.2.4.nvi"
+        },
+        {
+          "text": "Mateo 12",
+          "link": "https://www.bible.com/es/bible/128/MAT.12.nvi"
+        },
+        {
+          "text": "Marcos 3",
+          "link": "https://www.bible.com/es/bible/128/MRK.3.nvi"
+        },
+        {
+          "text": "1 Juan 2:17",
+          "link": "https://www.bible.com/es/bible/128/1JN.2.17.nvi"
+        },
+        {
+          "text": "Efesios 5",
+          "link": "https://www.bible.com/es/bible/128/EPH.5.nvi"
+        },
+        {
+          "text": "Colosenses 3:16-22",
+          "link": "https://www.bible.com/es/bible/128/COL.3.16-22.nvi"
+        },
+        {
+          "text": "Colosenses 4:1",
+          "link": "https://www.bible.com/es/bible/128/COL.4.1.nvi"
+        },
+        {
+          "text": "1 Tesalonicenses 4:3-5",
+          "link": "https://www.bible.com/es/bible/128/1TH.4.3-5.nvi"
+        },
+        {
+          "text": "1 Tesalonicenses 5:1",
+          "link": "https://www.bible.com/es/bible/128/1TH.5.1.nvi"
+        },
+        {
+          "text": "Romanos 13",
+          "link": "https://www.bible.com/es/bible/128/ROM.13.nvi"
+        },
+        {
+          "text": "1 Pedro 2",
+          "link": "https://www.bible.com/es/bible/128/1PE.2.nvi"
+        },
+        {
+          "text": "1 Pedro 3:17",
+          "link": "https://www.bible.com/es/bible/128/1PE.3.17.nvi"
+        },
+        {
+          "text": "1 Pedro 4:12",
+          "link": "https://www.bible.com/es/bible/128/1PE.4.12.nvi"
+        },
+        {
+          "text": "1 Pedro 5:10",
+          "link": "https://www.bible.com/es/bible/128/1PE.5.10.nvi"
+        },
+        {
+          "text": "Salmo 37:4",
+          "link": "https://www.bible.com/es/bible/128/PSA.37.4.nvi"
+        }
+      ],
+      "shareLinks": {
+        "facebook": "http://www.facebook.com/sharer.php?u=https://ccroma.mx/fundamentos/",
+        "twitter": "http://twitter.com/share?url=https://ccroma.mx/fundamentos/",
+        "whatsapp": "https://api.whatsapp.com/send?text=https://ccroma.mx/fundamentos/"
+      }
+    }
+  ]
