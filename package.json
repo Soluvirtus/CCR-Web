@@ -1,0 +1,19 @@
+{
+  "name": "ccr-web-main_2",
+  "version": "1.0.0",
+  "description": "Actualización de pagína Web para Iglesia Comunidad Cristiana Roma.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify:css": "css-minify -d styles -o dist/styles",
+    "minify:js": "uglifyjs scripts/script.js scripts/audio.js scripts/fundamentos.js scripts/transcripciones.js -o dist/scripts/bundle.min.js -c -m",
+    "build": "npm run minify:css && npm run minify:js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-minify": "^2.1.0",
+    "uglify-js": "^3.19.3"
+  }
+}
