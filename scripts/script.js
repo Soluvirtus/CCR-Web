@@ -84,9 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const currentActiveLayer = (prevIndex % 2 === 0) ? layer1 : layer2;
       const nextInactiveLayer = (prevIndex % 2 === 0) ? layer2 : layer1;
 
-      // Set the next image on the inactive layer
-      nextInactiveLayer.style.backgroundImage = `url(${headerBackgroundImages[currentHeaderImageIndex]})`;
-
       // Deactivate current layer and activate next layer
       currentActiveLayer.classList.remove("active");
       nextInactiveLayer.classList.add("active");
