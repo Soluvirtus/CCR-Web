@@ -238,7 +238,7 @@ body::before {
   background-repeat: no-repeat;
   opacity: 0.07;
   filter: blur(1px) brightness(1) contrast(1.2);
-  z-index: -1;
+  z-index: -2;
   transition: all 0.3s ease;
 }
 
@@ -345,6 +345,10 @@ section#valores h4 {
   display: none;
 }
 
+#navbar-placeholder {
+  background-color: #000;
+}
+
 #sermones div {
   
 }
@@ -352,7 +356,9 @@ section#valores h4 {
 #sermones button {
   width: 60%;
 }
-
+header {
+  background-color: #000;
+}
 /* Header Background Image */
 .bgimg-1 {
   background-position: center;
@@ -363,6 +369,7 @@ section#valores h4 {
   color: white;
   background-position: top center;
   background-repeat: no-repeat;
+  background-color: #000; /* Solid black for transition */
 }
 
 .bgimg-1 .bg-image-layer {
@@ -374,9 +381,9 @@ section#valores h4 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.5);
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  z-index: 1;
 }
 
 .bgimg-1 .bg-image-layer.active {
@@ -528,6 +535,7 @@ body.dark-mode .contact-form {
 
 .navbar-brand img {
   width: 72px !important;
+  aspect-ratio: 1.76;
 }
 
 .toast {
@@ -688,11 +696,13 @@ footer .btn i {
   .logo-light-mode {
     width: 50%;
     max-width: 300px;
+    aspect-ratio: 1;
   }
 
   .logo-dark-mode {
     width: 20%;
     max-width: 300px;
+    aspect-ratio: 1;
   }
 
   .img-fluido {
@@ -754,4 +764,19 @@ footer .btn i {
     height: 700px; /* Fixed height for carousel images */
   }
 }
+
+.card-img-top {
+  aspect-ratio: 1;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  z-index: 0; /* Ensure it's behind the image layers */
+}
+
 
