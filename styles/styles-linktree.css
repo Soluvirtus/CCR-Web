@@ -27,7 +27,7 @@
   }
   
   body {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-body);
     min-height: 100vh;
     padding: 20px;
     display: flex;
@@ -263,29 +263,4 @@
     }
   }
   
-  body {
-    background-size: 200% 200%;
-    animation: gradientAnimation 15s ease infinite;
-   50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  body {
-    background-size: 200% 200%;
-    animation: gradientAnimation 15s ease infinite;
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  body {
-    background-size: 200% 200%;
-    animation: gradientAnimation 15s ease infinite;
-  }
+  /* Final de archivo limpio */
