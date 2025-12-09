@@ -1,3 +1,23 @@
+:root {
+  /* Typography */
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+
+  /* Color Palette - Light Mode */
+  --color-bg: #ffffff;
+  --color-text: #212529;
+  --color-primary: #000000;
+  --color-accent: #3b3b3b;
+  --color-link: #000000;
+  
+  /* UI Elements */
+  --navbar-bg: rgba(0, 0, 0, 0.85); /* Black glass effect */
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --border-radius-lg: 16px;
+  --border-radius-md: 12px;
+  --transition-base: all 0.3s ease;
+}
+
 html {
   scroll-padding-top: 135px; /* Ajusta este valor según la altura del navbar */
 }
@@ -5,11 +25,12 @@ html {
 body {
   position: relative;
   font-size: 16px;
+  line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-body); /* Updated font */
   overflow-x: hidden;
-  background-color: #ffffff; /* Light gray background for light mode */
-  color: #212529; /* Dark text color for light mode */
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 body.dark-mode {
@@ -100,9 +121,9 @@ body.dark-mode .contact-form-loader {
   background: rgba(255, 255, 255, 0.9);
 }
 
-body.dark-mode label {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
+/* body.dark-mode label {
+  color: var(--color-text) !important;
+} */
 
 body.dark-mode select option {
   background-color: rgba(26, 30, 34, 0.95);
@@ -248,7 +269,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em; /* Modern touch */
 }
 
 img {
@@ -286,6 +308,29 @@ form {
 
 section#valores h4 {
   margin-bottom: 2rem;
+}
+
+.value-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: var(--transition-base);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-color: rgba(0,0,0,0.1);
+}
+
+body.dark-mode .value-card {
+  background-color: rgba(30, 30, 30, 0.6);
+  border-color: rgba(255,255,255,0.05);
+}
+
+body.dark-mode .text-primary {
+  color: #6ea8fe !important; /* Lighter blue for dark mode */
 }
 
 .accordion-button::after {
@@ -345,9 +390,7 @@ section#valores h4 {
   display: none;
 }
 
-#sermones div {
-  
-}
+
 
 #sermones button {
   width: 60%;
@@ -395,8 +438,11 @@ section#valores h4 {
 /* Navbar Styles */
 .navbar {
   padding: 13px;
-  background-color: rgba(0, 0, 0, 0.7); /* Light background for light mode */
-  transition: background-color 0.5s ease;
+  background-color: var(--navbar-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.5s ease, padding 0.3s ease;
 }
 
 .navbar.scrolled-navbar {
@@ -476,9 +522,7 @@ body.dark-mode .offcanvas .nav-link {
   height: 100%;
 }
 
-.form-group input {
-  padding: 1.2rem;
-}
+
 
 .social-btn i {
   color: #000 !important;
@@ -594,14 +638,84 @@ body.dark-mode .contact-form {
   object-fit: contain;
 }
 
+/* Contact Form Styles */
+.contact-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2.5rem;
+}
+
+body.dark-mode .contact-card {
+  background-color: rgba(30, 30, 30, 0.6);
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Floating labels adjustments */
+.form-floating > .form-control,
+.form-floating > .form-select {
+  height: 4rem; /* Increased height for more space */
+  padding-top: 1.625rem; /* Push text down */
+  padding-bottom: 0.625rem;
+  line-height: 1.25;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* border: 1px solid rgba(0,0,0,0.1); */
+}
+
+.form-floating > .form-control:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+  border-color: #86b7fe;
+}
+
+body.dark-mode .form-floating > .form-control {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+body.dark-mode .form-floating > .form-control:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+/* body.dark-mode .form-floating > label {
+  color: rgba(255, 255, 255, 0.85);
+} */
+
+.form-floating > label {
+  
+}
+
+.form-floating > textarea.form-control {
+  height: 150px;
+}
 
 
+
+
+/* Make label smaller when floating */
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  transform: scale(0.67) translateY(-0.5rem) translateX(0.15rem); /* Smaller scale (0.75) */
+  color: rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .form-floating > .form-control:focus ~ label,
+body.dark-mode .form-floating > .form-control:not(:placeholder-shown) ~ label,
+body.dark-mode .form-floating > .form-select ~ label {
+  color: rgba(255, 255, 255, 0.7);
+}
 .accordion-button {
   text-align: center;
   justify-content: center;
   
 }
-
+.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
+  background-color: transparent !important;
+}
 .accordion-button:not(.collapsed) {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -612,9 +726,7 @@ body.dark-mode .contact-form {
   border-bottom-right-radius: 15px;
 }
 
-.card {
-  
-}
+
 
 .btn-warning {
   margin-top: 4rem !important;
@@ -711,6 +823,33 @@ footer .btn i {
     transform: translate(-50%, 0);
   }
 }
+
+/* Scroll Reveal Animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Enhanced Button Interactions */
+.btn {
+  transition: all 0.2s ease-out;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+/* Smooth Image Loading */
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
 
 @keyframes flashOut {
   0% {
