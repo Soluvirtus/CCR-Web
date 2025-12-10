@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Recuerdos - Comunidad Cristiana Roma" />
+  <meta property="og:description" content="Galería de Recuerdos de Comunidad Cristiana Roma" />
+  <meta property="og:image" content="https://ccroma.mx/assets/img/slideshow/ccr2.jpeg" />
+  <meta property="og:url" content="https://ccroma.mx/eventos.html" />
+  <meta property="og:type" content="website" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recuerdos | Comunidad Cristiana Roma</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+</head>
+
+<body class="smooth-scroll">
+  
+  <!-- Navbar (Injected by JS) -->
+  <header id="navbar-placeholder" style="background-color: transparent;"></header>
+
+  <!-- Header Section -->
+  <header class="d-flex align-items-center justify-content-center text-center text-white" style="background-color: black; height: 50vh; min-height: 350px; background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/img/slideshow/ccr1.jpeg'); background-size: cover; background-position: center;">
+    <div class="container reveal active">
+      <h1 class="display-3 fw-bold mb-3">Galería de Recuerdos</h1>
+      <p class="lead text-white-50">Reviviendo la fidelidad de Dios en nuestra comunidad</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contenedor Principal de Archivo -->
+    <section id="archivo-eventos" class="container py-5 my-5">
+      
+      <!-- Contenedor de Tarjetas (JS lo detecta por ID y lo llena) -->
+      <div id="eventos-archivo-container" class="d-flex justify-content-center flex-wrap gap-4" style="min-height: 400px;">
+          <!-- Spinner inicial mientras carga JS -->
+          <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Cargando...</span>
+          </div>
+      </div>
+
+      <div class="mt-5 text-center">
+          <a href="index.html" class="btn btn-outline-primary rounded-pill px-4">
+              <i class="bi bi-arrow-left me-2"></i>Volver al Inicio
+          </a>
+      </div>
+
+    </section>
+
+    <!-- Modal para Galería de Fotos (Requerido por script.js) -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-black"> 
+          <div class="modal-header border-0 position-absolute top-0 end-0 z-3">
+            <button type="button" class="btn-close btn-close-white m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0 d-flex align-items-center justify-content-center">
+             <div id="galleryCarouselContainer" class="w-100 h-100 d-flex align-items-center justify-content-center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-4 bg-dark">
+    <div class="container my-4">
+      <div class="my-3">
+        <a href="https://www.facebook.com/ComunidadCristianaRoma" target="_blank" class="text-white mx-3 fs-4"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/comunidadcristianaroma/?hl=es-la" target="_blank" class="text-white mx-3 fs-4"><i class="fa fa-instagram"></i></a>
+        <a href="https://open.spotify.com/show/104ya0Ir2HJlRoVo5JCI5J" target="_blank" class="text-white mx-3 fs-4"><i class="fa fa-spotify"></i></a>
+        <a href="https://www.youtube.com/@comunidadcristianaroma3343/streams" target="_blank" class="text-white mx-3 fs-4"><i class="fa fa-youtube"></i></a>
+      </div>
+      <p class="mb-0 small text-white-50">© Comunidad Cristiana Roma</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap & Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+  <script src="scripts/config.js"></script>
+  <script src="scripts/script.js" defer></script>
+
+</body>
+</html>

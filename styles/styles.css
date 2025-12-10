@@ -703,6 +703,275 @@ body.dark-mode .form-floating > .form-control:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
+body.contact-card .form-floating>.form-control:focus,
+.contact-card .form-floating>.form-control:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+}
+
+/* Event Images - Static Size & Collage */
+.event-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+/* Photo Grid Collage (Facebook Style) */
+.photo-grid {
+    display: grid;
+    gap: 2px;
+    height: 400px; /* Altura fija para el collage */
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.photo-grid img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.photo-grid img:hover {
+    filter: brightness(0.9);
+}
+
+/* Layout logic based on classes injected by JS */
+.grid-1 { grid-template-columns: 1fr; }
+
+.grid-2 { grid-template-columns: 1fr 1fr; }
+
+.grid-3 { 
+    grid-template-columns: 1.5fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+}
+.grid-3 img:first-child { grid-row: span 2; }
+
+.grid-4 { 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+}
+
+/* Overlay for +X more photos */
+.more-overlay {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.overlay-text {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    pointer-events: none;
+    transition: background 0.2s;
+}
+.more-overlay:hover .overlay-text {
+    background: rgba(0,0,0,0.4);
+}
+
+/* --- Premium Event Card Styles --- */
+.event-card {
+    border: none;
+    border-radius: 1rem;
+    background: #fff;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.event-card.bg-light {
+    background: #f8f9fa; /* Subtle gray for past events */
+}
+
+/* Badges & Meta */
+.event-countdown {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.4em 0.8em;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.event-countdown.future {
+    background: linear-gradient(135deg, var(--primary-color), #4a90e2);
+    color: black;
+}
+.event-countdown.past {
+    background: #e9ecef;
+    color: #6c757d;
+}
+
+.event-date-display {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.event-location {
+    font-size: 0.85rem;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+}
+.event-location i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+/* Ensure images respect the rounded corners on the sides they touch */
+.event-card.overflow-hidden .photo-grid {
+   /* For horizontal card: rounded left */
+   border-top-left-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .event-card {
+    background: #1e1e1e;
+    color: #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .event-card:hover {
+    background: #252525;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6) !important;
+}
+
+body.dark-mode .event-card.bg-light {
+    background: #2d2d2d; /* Distinct from main dark bg */
+}
+
+/* --- Event Type Specifics (Light Mode) --- */
+
+/* FUTURO */
+.event-card.event-future {
+    background: #ffffff;
+}
+.event-card.event-future .card-title {
+    color: #000000; /* Negro puro para máximo impacto */
+}
+.event-card.event-future .event-date-display {
+    color: var(--primary-color);
+}
+
+/* PASADO */
+.event-card.event-past {
+    background: #f8f9fa; /* Gris muy claro */
+    opacity: 0.9;
+}
+.event-card.event-past .card-title {
+    color: #000000; /* Negro (antes gris) */
+    text-decoration: none;
+}
+.event-card.event-past .event-date-display {
+    color: var(--primary-color); /* Azul (antes gris) */
+}
+/* Efecto blanco y negro para recuerdos - DESACTIVADO */
+/* 
+.event-card.event-past .photo-grid img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+.event-card.event-past:hover .photo-grid img {
+    filter: grayscale(0%);
+} 
+*/
+.event-card.event-past:hover {
+    opacity: 1;
+}
+
+/* Time & Location Row */
+.event-time {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.event-time i {
+    color: var(--primary-color);
+}
+/* Dark mode time icon fix */
+body.dark-mode .event-time i {
+    color: #6ea8fe;
+}
+
+
+/* --- Dark Mode Overrides for Types --- */
+
+/* FUTURO FLASH */
+body.dark-mode .event-card.event-future {
+    background: #1e1e1e;
+}
+body.dark-mode .event-card.event-future .card-title {
+    color: #ffffff !important; /* Blanco puro */
+}
+body.dark-mode .event-card.event-future .event-date-display {
+    color: #6ea8fe; /* Azul brillante */
+}
+
+/* PASADO MEMORY */
+body.dark-mode .event-card.event-past {
+    background: #000000; /* Negro puro */
+    border: 1px solid #333; /* Borde sutil para separación */
+    opacity: 1; 
+}
+body.dark-mode .event-card.event-past .card-title {
+    color: #e0e0e0 !important; 
+}
+body.dark-mode .event-card.event-past .event-date-display {
+    color: #adb5bd; 
+}
+
+/* Common text adjustments */
+body.dark-mode .event-card .text-muted {
+    color: #b0b3b8 !important;
+}
+body.dark-mode .event-card .text-secondary {
+    color: #a0a0a0 !important;
+}
+
+/* Badges in Dark Mode */
+body.dark-mode .event-countdown.future {
+    color: #ffffff; /* Blanco en modo oscuro */
+}
+body.dark-mode .event-countdown.past {
+    background: #3a3a3a;
+    color: #ffffff; /* Blanco en modo oscuro */
+    border: 1px solid #444;
+}
+
+/* Base Badge Colors (Light Mode Defaults) */
+.event-countdown.future {
+    /* ... background defined above ... */
+    color: #000000; /* Negro en modo claro */
+}
+.event-countdown.past {
+    background: #e9ecef;
+    color: #333333; /* Gris oscuro/Negro en modo claro */
+}
+
+/* Location Icon */
+body.dark-mode .event-location i {
+    color: #6ea8fe;
+}
+
+.contact-card .form-floating>label {
+  padding: 1rem 0.75rem;
+}
+
 body.dark-mode .form-floating > .form-control:focus ~ label,
 body.dark-mode .form-floating > .form-control:not(:placeholder-shown) ~ label,
 body.dark-mode .form-floating > .form-select ~ label {
@@ -892,4 +1161,56 @@ img {
     #imageCarousel .carousel-item img {
     height: 700px; /* Fixed height for carousel images */
   }
+}
+
+/* --- Event Tabs (Monochrome Style) --- */
+#eventsTab .nav-link {
+    color: #555; /* Gris oscuro para inactivo */
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+#eventsTab .nav-link:hover {
+    color: #000;
+    background-color: #f0f0f0;
+}
+
+#eventsTab .nav-link.active {
+    background-color: #000000 !important; /* Negro Puro */
+    color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Dark Mode Tabs */
+body.dark-mode #eventsTab .nav-link {
+    color: #aaa;
+}
+body.dark-mode #eventsTab .nav-link:hover {
+    color: #fff;
+    background-color: #333;
+}
+body.dark-mode #eventsTab .nav-link.active {
+    background-color: #ffffff !important; /* Blanco Puro en Dark Mode para contraste */
+    color: #000000 !important;
+}
+
+/* Event Card Action Button Override */
+.event-card .btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.event-card .btn-outline-primary:hover {
+    color: var(--primary-color) !important; /* Mantiene color azul al hover */
+    background-color: rgba(13, 110, 253, 0.1) !important; /* Fondo tintado ligero */
+    border-color: var(--primary-color) !important;
+}
+/* Adjust for Dark Mode if needed */
+body.dark-mode .event-card .btn-outline-primary {
+     color: #6ea8fe;
+     border-color: #6ea8fe;
+}
+body.dark-mode .event-card .btn-outline-primary:hover {
+     color: #6ea8fe !important;
+     background-color: rgba(110, 168, 254, 0.1) !important;
 }
