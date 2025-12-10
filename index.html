@@ -291,18 +291,63 @@ Vivimos la esperanza del evangelio en comunidad. Como miembros del cuerpo de Cri
 
 
     <!-- Modal para imagen completa -->
+    <!-- Modal Galería (Carrusel) -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content bg-black"> <!-- Fondo negro para mejor experiencia -->
+          <div class="modal-header border-0 position-absolute top-0 end-0 z-3">
+            <button type="button" class="btn-close btn-close-white m-3" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body d-flex align-items-center justify-content-center">
-            <img id="modalImage" src="" class="img-fluid" alt="Imagen en pantalla completa" loading="lazy">
+          <div class="modal-body p-0 d-flex align-items-center justify-content-center">
+             <!-- Aquí se inyectará el carrusel vía JS -->
+             <div id="galleryCarouselContainer" class="w-100 h-100 d-flex align-items-center justify-content-center"></div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="separator">
+      <hr>
+    </div>
+
+    <!-- Sección de Eventos (Dinámica desde Contentful) -->
+    <section id="eventos" class="text-center mt-5 mb-5 reveal">
+      <div class="container">
+        <h2 class="mb-4"><b>Eventos</b></h2>
+        
+        <!-- Tabs Navigation -->
+        <ul class="nav nav-pills justify-content-center mb-5" id="eventsTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active rounded-pill px-4" id="proximos-tab" data-bs-toggle="pill" data-bs-target="#proximos" type="button" role="tab" aria-controls="proximos" aria-selected="true">
+              <i class="bi bi-calendar-check me-2"></i>Próximos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill px-4" id="pasados-tab" data-bs-toggle="pill" data-bs-target="#pasados" type="button" role="tab" aria-controls="pasados" aria-selected="false">
+              <i class="bi bi-camera me-2"></i>Recuerdos
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tabs Content -->
+        <div class="tab-content" id="eventsTabContent">
+          <!-- Proximos -->
+          <div class="tab-pane fade show active" id="proximos" role="tabpanel" aria-labelledby="proximos-tab" tabindex="0">
+            <div id="eventos-proximos-container" class="d-flex justify-content-center flex-wrap gap-4" style="min-height: 200px;">
+               <!-- JS inyectará aquí los próximos -->
+            </div>
+          </div>
+          
+          <!-- Pasados -->
+          <div class="tab-pane fade" id="pasados" role="tabpanel" aria-labelledby="pasados-tab" tabindex="0">
+            <div id="eventos-pasados-container" class="d-flex justify-content-center flex-wrap gap-4" style="min-height: 200px;">
+               <!-- JS inyectará aquí los pasados -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <div class="separator">
       <hr>
@@ -523,6 +568,14 @@ Vivimos la esperanza del evangelio en comunidad. Como miembros del cuerpo de Cri
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+  
+  <!-- Contentful SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+  <!-- Config (Credentials) -->
+  <script src="scripts/config.js"></script>
+
+  <!-- Main Script -->
   <script src="scripts/script.js" defer></script>
 
 </body>
